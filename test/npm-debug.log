@@ -1,0 +1,2963 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 warn package.json karkahna@ No description
+5 warn package.json karkahna@ No repository field.
+6 warn package.json karkahna@ No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/InRhythm041/karkahna',
+8 verbose install   [ 'apache-server-configs',
+8 verbose install     'grunt',
+8 verbose install     'grunt-contrib-copy',
+8 verbose install     'grunt-contrib-concat',
+8 verbose install     'grunt-contrib-uglify',
+8 verbose install     'grunt-contrib-sass',
+8 verbose install     'grunt-contrib-jshint',
+8 verbose install     'grunt-contrib-cssmin',
+8 verbose install     'grunt-contrib-connect',
+8 verbose install     'grunt-contrib-clean',
+8 verbose install     'grunt-contrib-htmlmin',
+8 verbose install     'grunt-wiredep',
+8 verbose install     'grunt-contrib-imagemin',
+8 verbose install     'grunt-contrib-watch',
+8 verbose install     'grunt-rev',
+8 verbose install     'grunt-autoprefixer',
+8 verbose install     'grunt-usemin',
+8 verbose install     'grunt-mocha',
+8 verbose install     'grunt-modernizr',
+8 verbose install     'grunt-newer',
+8 verbose install     'grunt-svgmin',
+8 verbose install     'grunt-concurrent',
+8 verbose install     'load-grunt-tasks',
+8 verbose install     'time-grunt',
+8 verbose install     'jshint-stylish' ] ]
+9 info preinstall karkahna@
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping grunt-contrib-jshint@^0.10.0 /Users/InRhythm041/karkahna
+12 verbose cache add [ 'grunt-contrib-cssmin@^0.10.0', null ]
+13 verbose cache add name=undefined spec="grunt-contrib-cssmin@^0.10.0" args=["grunt-contrib-cssmin@^0.10.0",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'grunt-contrib-cssmin@^0.10.0',
+14 verbose parsed url   path: 'grunt-contrib-cssmin@^0.10.0',
+14 verbose parsed url   href: 'grunt-contrib-cssmin@^0.10.0' }
+15 verbose already installed skipping grunt-contrib-connect@^0.8.0 /Users/InRhythm041/karkahna
+16 verbose cache add name="grunt-contrib-cssmin" spec="^0.10.0" args=["grunt-contrib-cssmin","^0.10.0"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '^0.10.0',
+17 verbose parsed url   path: '^0.10.0',
+17 verbose parsed url   href: '^0.10.0' }
+18 verbose addNamed [ 'grunt-contrib-cssmin', '^0.10.0' ]
+19 verbose addNamed [ null, '>=0.10.0-0 <0.11.0-0' ]
+20 verbose already installed skipping grunt-contrib-clean@^0.6.0 /Users/InRhythm041/karkahna
+21 verbose cache add [ 'grunt-contrib-htmlmin@^0.3.0', null ]
+22 verbose cache add name=undefined spec="grunt-contrib-htmlmin@^0.3.0" args=["grunt-contrib-htmlmin@^0.3.0",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'grunt-contrib-htmlmin@^0.3.0',
+23 verbose parsed url   path: 'grunt-contrib-htmlmin@^0.3.0',
+23 verbose parsed url   href: 'grunt-contrib-htmlmin@^0.3.0' }
+24 silly lockFile 27341b2e-grunt-contrib-cssmin-0-10-0 grunt-contrib-cssmin@^0.10.0
+25 verbose lock grunt-contrib-cssmin@^0.10.0 /Users/InRhythm041/.npm/27341b2e-grunt-contrib-cssmin-0-10-0.lock
+26 verbose cache add [ 'grunt-wiredep@^1.7.0', null ]
+27 verbose cache add name=undefined spec="grunt-wiredep@^1.7.0" args=["grunt-wiredep@^1.7.0",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'grunt-wiredep@^1.7.0',
+28 verbose parsed url   path: 'grunt-wiredep@^1.7.0',
+28 verbose parsed url   href: 'grunt-wiredep@^1.7.0' }
+29 verbose cache add name="grunt-contrib-htmlmin" spec="^0.3.0" args=["grunt-contrib-htmlmin","^0.3.0"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '^0.3.0',
+30 verbose parsed url   path: '^0.3.0',
+30 verbose parsed url   href: '^0.3.0' }
+31 verbose addNamed [ 'grunt-contrib-htmlmin', '^0.3.0' ]
+32 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+33 silly lockFile 955689d3-grunt-contrib-htmlmin-0-3-0 grunt-contrib-htmlmin@^0.3.0
+34 verbose lock grunt-contrib-htmlmin@^0.3.0 /Users/InRhythm041/.npm/955689d3-grunt-contrib-htmlmin-0-3-0.lock
+35 verbose cache add name="grunt-wiredep" spec="^1.7.0" args=["grunt-wiredep","^1.7.0"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '^1.7.0',
+36 verbose parsed url   path: '^1.7.0',
+36 verbose parsed url   href: '^1.7.0' }
+37 verbose addNamed [ 'grunt-wiredep', '^1.7.0' ]
+38 verbose addNamed [ null, '>=1.7.0-0 <2.0.0-0' ]
+39 silly lockFile 93ccb32e-grunt-wiredep-1-7-0 grunt-wiredep@^1.7.0
+40 verbose lock grunt-wiredep@^1.7.0 /Users/InRhythm041/.npm/93ccb32e-grunt-wiredep-1-7-0.lock
+41 verbose cache add [ 'grunt-contrib-imagemin@^0.8.0', null ]
+42 verbose cache add name=undefined spec="grunt-contrib-imagemin@^0.8.0" args=["grunt-contrib-imagemin@^0.8.0",null]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: 'grunt-contrib-imagemin@^0.8.0',
+43 verbose parsed url   path: 'grunt-contrib-imagemin@^0.8.0',
+43 verbose parsed url   href: 'grunt-contrib-imagemin@^0.8.0' }
+44 silly addNameRange { name: 'grunt-contrib-cssmin',
+44 silly addNameRange   range: '>=0.10.0-0 <0.11.0-0',
+44 silly addNameRange   hasData: false }
+45 verbose already installed skipping grunt-contrib-watch@^0.6.1 /Users/InRhythm041/karkahna
+46 verbose already installed skipping grunt-rev@^0.1.0 /Users/InRhythm041/karkahna
+47 verbose already installed skipping grunt-autoprefixer@^1.0.0 /Users/InRhythm041/karkahna
+48 verbose cache add name="grunt-contrib-imagemin" spec="^0.8.0" args=["grunt-contrib-imagemin","^0.8.0"]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: '^0.8.0',
+49 verbose parsed url   path: '^0.8.0',
+49 verbose parsed url   href: '^0.8.0' }
+50 verbose addNamed [ 'grunt-contrib-imagemin', '^0.8.0' ]
+51 verbose addNamed [ null, '>=0.8.0-0 <0.9.0-0' ]
+52 silly lockFile cbed4c69-grunt-contrib-imagemin-0-8-0 grunt-contrib-imagemin@^0.8.0
+53 verbose lock grunt-contrib-imagemin@^0.8.0 /Users/InRhythm041/.npm/cbed4c69-grunt-contrib-imagemin-0-8-0.lock
+54 silly addNameRange { name: 'grunt-contrib-htmlmin',
+54 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+54 silly addNameRange   hasData: false }
+55 silly addNameRange { name: 'grunt-wiredep',
+55 silly addNameRange   range: '>=1.7.0-0 <2.0.0-0',
+55 silly addNameRange   hasData: false }
+56 verbose already installed skipping grunt-usemin@^2.3.0 /Users/InRhythm041/karkahna
+57 silly addNameRange { name: 'grunt-contrib-imagemin',
+57 silly addNameRange   range: '>=0.8.0-0 <0.9.0-0',
+57 silly addNameRange   hasData: false }
+58 verbose cache add [ 'grunt-mocha@^0.4.10', null ]
+59 verbose cache add name=undefined spec="grunt-mocha@^0.4.10" args=["grunt-mocha@^0.4.10",null]
+60 verbose parsed url { protocol: null,
+60 verbose parsed url   slashes: null,
+60 verbose parsed url   auth: null,
+60 verbose parsed url   host: null,
+60 verbose parsed url   port: null,
+60 verbose parsed url   hostname: null,
+60 verbose parsed url   hash: null,
+60 verbose parsed url   search: null,
+60 verbose parsed url   query: null,
+60 verbose parsed url   pathname: 'grunt-mocha@^0.4.10',
+60 verbose parsed url   path: 'grunt-mocha@^0.4.10',
+60 verbose parsed url   href: 'grunt-mocha@^0.4.10' }
+61 verbose cache add name="grunt-mocha" spec="^0.4.10" args=["grunt-mocha","^0.4.10"]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: '^0.4.10',
+62 verbose parsed url   path: '^0.4.10',
+62 verbose parsed url   href: '^0.4.10' }
+63 verbose addNamed [ 'grunt-mocha', '^0.4.10' ]
+64 verbose addNamed [ null, '>=0.4.10-0 <0.5.0-0' ]
+65 silly lockFile 792af9b6-grunt-mocha-0-4-10 grunt-mocha@^0.4.10
+66 verbose lock grunt-mocha@^0.4.10 /Users/InRhythm041/.npm/792af9b6-grunt-mocha-0-4-10.lock
+67 verbose cache add [ 'grunt-modernizr@^0.5.2', null ]
+68 verbose cache add name=undefined spec="grunt-modernizr@^0.5.2" args=["grunt-modernizr@^0.5.2",null]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: 'grunt-modernizr@^0.5.2',
+69 verbose parsed url   path: 'grunt-modernizr@^0.5.2',
+69 verbose parsed url   href: 'grunt-modernizr@^0.5.2' }
+70 verbose request where is /grunt-contrib-cssmin
+71 verbose request registry https://registry.npmjs.org/
+72 verbose request id d2e49015738f7799
+73 verbose url raw /grunt-contrib-cssmin
+74 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-cssmin' ]
+75 verbose url resolved https://registry.npmjs.org/grunt-contrib-cssmin
+76 verbose request where is https://registry.npmjs.org/grunt-contrib-cssmin
+77 info trying registry request attempt 1 at 13:32:15
+78 verbose etag "1A7ZW8G2KV0684F6MK19IZYW2"
+79 http GET https://registry.npmjs.org/grunt-contrib-cssmin
+80 verbose request where is /grunt-contrib-htmlmin
+81 verbose request registry https://registry.npmjs.org/
+82 verbose url raw /grunt-contrib-htmlmin
+83 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-htmlmin' ]
+84 verbose url resolved https://registry.npmjs.org/grunt-contrib-htmlmin
+85 verbose request where is https://registry.npmjs.org/grunt-contrib-htmlmin
+86 info trying registry request attempt 1 at 13:32:16
+87 verbose etag "2GJR28H9N1HAQOEM3OXU99LQF"
+88 http GET https://registry.npmjs.org/grunt-contrib-htmlmin
+89 verbose cache add [ 'grunt-newer@^0.7.0', null ]
+90 verbose cache add name=undefined spec="grunt-newer@^0.7.0" args=["grunt-newer@^0.7.0",null]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: 'grunt-newer@^0.7.0',
+91 verbose parsed url   path: 'grunt-newer@^0.7.0',
+91 verbose parsed url   href: 'grunt-newer@^0.7.0' }
+92 verbose cache add [ 'grunt-svgmin@^0.4.0', null ]
+93 verbose cache add name=undefined spec="grunt-svgmin@^0.4.0" args=["grunt-svgmin@^0.4.0",null]
+94 verbose parsed url { protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: 'grunt-svgmin@^0.4.0',
+94 verbose parsed url   path: 'grunt-svgmin@^0.4.0',
+94 verbose parsed url   href: 'grunt-svgmin@^0.4.0' }
+95 verbose already installed skipping grunt-concurrent@^0.5.0 /Users/InRhythm041/karkahna
+96 verbose already installed skipping load-grunt-tasks@^0.4.0 /Users/InRhythm041/karkahna
+97 verbose already installed skipping time-grunt@^0.4.0 /Users/InRhythm041/karkahna
+98 verbose already installed skipping jshint-stylish@^0.4.0 /Users/InRhythm041/karkahna
+99 verbose already installed skipping apache-server-configs@^2.7.1 /Users/InRhythm041/karkahna
+100 verbose already installed skipping grunt@^0.4.5 /Users/InRhythm041/karkahna
+101 verbose already installed skipping grunt-contrib-copy@^0.5.0 /Users/InRhythm041/karkahna
+102 verbose already installed skipping grunt-contrib-concat@^0.5.0 /Users/InRhythm041/karkahna
+103 verbose already installed skipping grunt-contrib-uglify@^0.5.1 /Users/InRhythm041/karkahna
+104 verbose already installed skipping grunt-contrib-sass@^0.7.3 /Users/InRhythm041/karkahna
+105 verbose cache add name="grunt-modernizr" spec="^0.5.2" args=["grunt-modernizr","^0.5.2"]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: '^0.5.2',
+106 verbose parsed url   path: '^0.5.2',
+106 verbose parsed url   href: '^0.5.2' }
+107 verbose addNamed [ 'grunt-modernizr', '^0.5.2' ]
+108 verbose addNamed [ null, '>=0.5.2-0 <0.6.0-0' ]
+109 silly lockFile fb403abc-grunt-modernizr-0-5-2 grunt-modernizr@^0.5.2
+110 verbose lock grunt-modernizr@^0.5.2 /Users/InRhythm041/.npm/fb403abc-grunt-modernizr-0-5-2.lock
+111 verbose request where is /grunt-wiredep
+112 verbose request registry https://registry.npmjs.org/
+113 verbose url raw /grunt-wiredep
+114 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-wiredep' ]
+115 verbose url resolved https://registry.npmjs.org/grunt-wiredep
+116 verbose request where is https://registry.npmjs.org/grunt-wiredep
+117 info trying registry request attempt 1 at 13:32:16
+118 verbose etag "C9NSZZBDEPNSJIS73MQTX83LQ"
+119 http GET https://registry.npmjs.org/grunt-wiredep
+120 silly addNameRange { name: 'grunt-mocha',
+120 silly addNameRange   range: '>=0.4.10-0 <0.5.0-0',
+120 silly addNameRange   hasData: false }
+121 verbose cache add name="grunt-newer" spec="^0.7.0" args=["grunt-newer","^0.7.0"]
+122 verbose parsed url { protocol: null,
+122 verbose parsed url   slashes: null,
+122 verbose parsed url   auth: null,
+122 verbose parsed url   host: null,
+122 verbose parsed url   port: null,
+122 verbose parsed url   hostname: null,
+122 verbose parsed url   hash: null,
+122 verbose parsed url   search: null,
+122 verbose parsed url   query: null,
+122 verbose parsed url   pathname: '^0.7.0',
+122 verbose parsed url   path: '^0.7.0',
+122 verbose parsed url   href: '^0.7.0' }
+123 verbose addNamed [ 'grunt-newer', '^0.7.0' ]
+124 verbose addNamed [ null, '>=0.7.0-0 <0.8.0-0' ]
+125 silly lockFile 78b2a39f-grunt-newer-0-7-0 grunt-newer@^0.7.0
+126 verbose lock grunt-newer@^0.7.0 /Users/InRhythm041/.npm/78b2a39f-grunt-newer-0-7-0.lock
+127 verbose cache add name="grunt-svgmin" spec="^0.4.0" args=["grunt-svgmin","^0.4.0"]
+128 verbose parsed url { protocol: null,
+128 verbose parsed url   slashes: null,
+128 verbose parsed url   auth: null,
+128 verbose parsed url   host: null,
+128 verbose parsed url   port: null,
+128 verbose parsed url   hostname: null,
+128 verbose parsed url   hash: null,
+128 verbose parsed url   search: null,
+128 verbose parsed url   query: null,
+128 verbose parsed url   pathname: '^0.4.0',
+128 verbose parsed url   path: '^0.4.0',
+128 verbose parsed url   href: '^0.4.0' }
+129 verbose addNamed [ 'grunt-svgmin', '^0.4.0' ]
+130 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+131 silly lockFile e5c3356f-grunt-svgmin-0-4-0 grunt-svgmin@^0.4.0
+132 verbose lock grunt-svgmin@^0.4.0 /Users/InRhythm041/.npm/e5c3356f-grunt-svgmin-0-4-0.lock
+133 verbose request where is /grunt-contrib-imagemin
+134 verbose request registry https://registry.npmjs.org/
+135 verbose url raw /grunt-contrib-imagemin
+136 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-imagemin' ]
+137 verbose url resolved https://registry.npmjs.org/grunt-contrib-imagemin
+138 verbose request where is https://registry.npmjs.org/grunt-contrib-imagemin
+139 info trying registry request attempt 1 at 13:32:16
+140 verbose etag "DKJUVA6EMEX5NVUZ673V83ZUS"
+141 http GET https://registry.npmjs.org/grunt-contrib-imagemin
+142 silly addNameRange { name: 'grunt-modernizr',
+142 silly addNameRange   range: '>=0.5.2-0 <0.6.0-0',
+142 silly addNameRange   hasData: false }
+143 silly addNameRange { name: 'grunt-newer',
+143 silly addNameRange   range: '>=0.7.0-0 <0.8.0-0',
+143 silly addNameRange   hasData: false }
+144 silly addNameRange { name: 'grunt-svgmin',
+144 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+144 silly addNameRange   hasData: false }
+145 verbose request where is /grunt-mocha
+146 verbose request registry https://registry.npmjs.org/
+147 verbose url raw /grunt-mocha
+148 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-mocha' ]
+149 verbose url resolved https://registry.npmjs.org/grunt-mocha
+150 verbose request where is https://registry.npmjs.org/grunt-mocha
+151 info trying registry request attempt 1 at 13:32:16
+152 verbose etag "63O7SGQNLP5JIM8JBXWH7M4JJ"
+153 http GET https://registry.npmjs.org/grunt-mocha
+154 verbose request where is /grunt-modernizr
+155 verbose request registry https://registry.npmjs.org/
+156 verbose url raw /grunt-modernizr
+157 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-modernizr' ]
+158 verbose url resolved https://registry.npmjs.org/grunt-modernizr
+159 verbose request where is https://registry.npmjs.org/grunt-modernizr
+160 info trying registry request attempt 1 at 13:32:16
+161 verbose etag "90GWRK7GCGO9W2N6XRKU9T60R"
+162 http GET https://registry.npmjs.org/grunt-modernizr
+163 verbose request where is /grunt-newer
+164 verbose request registry https://registry.npmjs.org/
+165 verbose url raw /grunt-newer
+166 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-newer' ]
+167 verbose url resolved https://registry.npmjs.org/grunt-newer
+168 verbose request where is https://registry.npmjs.org/grunt-newer
+169 info trying registry request attempt 1 at 13:32:16
+170 verbose etag "ED3POMDRZX5DTHHXI5CW8BHMX"
+171 http GET https://registry.npmjs.org/grunt-newer
+172 verbose request where is /grunt-svgmin
+173 verbose request registry https://registry.npmjs.org/
+174 verbose url raw /grunt-svgmin
+175 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-svgmin' ]
+176 verbose url resolved https://registry.npmjs.org/grunt-svgmin
+177 verbose request where is https://registry.npmjs.org/grunt-svgmin
+178 info trying registry request attempt 1 at 13:32:16
+179 verbose etag "SZVTFTJ3NLA2BA7TRAV4ZXGS"
+180 http GET https://registry.npmjs.org/grunt-svgmin
+181 http 304 https://registry.npmjs.org/grunt-contrib-htmlmin
+182 silly registry.get cb [ 304,
+182 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+182 silly registry.get     server: 'Apache',
+182 silly registry.get     via: '1.1 varnish',
+182 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+182 silly registry.get     'cache-control': 'max-age=60',
+182 silly registry.get     etag: '"2GJR28H9N1HAQOEM3OXU99LQF"',
+182 silly registry.get     'x-served-by': 'cache-jfk1027-JFK',
+182 silly registry.get     'x-cache': 'HIT',
+182 silly registry.get     'x-cache-hits': '1',
+182 silly registry.get     'x-timer': 'S1410024732.386175,VS0,VE0',
+182 silly registry.get     vary: 'Accept',
+182 silly registry.get     'content-length': '0',
+182 silly registry.get     'keep-alive': 'timeout=10, max=50',
+182 silly registry.get     connection: 'Keep-Alive' } ]
+183 verbose etag https://registry.npmjs.org/grunt-contrib-htmlmin from cache
+184 http 304 https://registry.npmjs.org/grunt-contrib-imagemin
+185 silly registry.get cb [ 304,
+185 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+185 silly registry.get     server: 'Apache',
+185 silly registry.get     via: '1.1 varnish',
+185 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+185 silly registry.get     'cache-control': 'max-age=60',
+185 silly registry.get     etag: '"DKJUVA6EMEX5NVUZ673V83ZUS"',
+185 silly registry.get     'x-served-by': 'cache-jfk1028-JFK',
+185 silly registry.get     'x-cache': 'HIT',
+185 silly registry.get     'x-cache-hits': '1',
+185 silly registry.get     'x-timer': 'S1410024732.387904,VS0,VE0',
+185 silly registry.get     vary: 'Accept',
+185 silly registry.get     'content-length': '0',
+185 silly registry.get     'keep-alive': 'timeout=10, max=50',
+185 silly registry.get     connection: 'Keep-Alive' } ]
+186 verbose etag https://registry.npmjs.org/grunt-contrib-imagemin from cache
+187 http 304 https://registry.npmjs.org/grunt-contrib-cssmin
+188 silly registry.get cb [ 304,
+188 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+188 silly registry.get     server: 'Apache',
+188 silly registry.get     via: '1.1 varnish',
+188 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+188 silly registry.get     'cache-control': 'max-age=60',
+188 silly registry.get     etag: '"1A7ZW8G2KV0684F6MK19IZYW2"',
+188 silly registry.get     'x-served-by': 'cache-jfk1027-JFK',
+188 silly registry.get     'x-cache': 'HIT',
+188 silly registry.get     'x-cache-hits': '1',
+188 silly registry.get     'x-timer': 'S1410024732.388920,VS0,VE0',
+188 silly registry.get     vary: 'Accept',
+188 silly registry.get     'content-length': '0',
+188 silly registry.get     'keep-alive': 'timeout=10, max=50',
+188 silly registry.get     connection: 'Keep-Alive' } ]
+189 verbose etag https://registry.npmjs.org/grunt-contrib-cssmin from cache
+190 http 304 https://registry.npmjs.org/grunt-newer
+191 silly registry.get cb [ 304,
+191 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+191 silly registry.get     server: 'Apache',
+191 silly registry.get     via: '1.1 varnish',
+191 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+191 silly registry.get     'cache-control': 'max-age=60',
+191 silly registry.get     etag: '"ED3POMDRZX5DTHHXI5CW8BHMX"',
+191 silly registry.get     'x-served-by': 'cache-jfk1028-JFK',
+191 silly registry.get     'x-cache': 'HIT',
+191 silly registry.get     'x-cache-hits': '1',
+191 silly registry.get     'x-timer': 'S1410024732.395630,VS0,VE0',
+191 silly registry.get     vary: 'Accept',
+191 silly registry.get     'content-length': '0',
+191 silly registry.get     'keep-alive': 'timeout=10, max=49',
+191 silly registry.get     connection: 'Keep-Alive' } ]
+192 verbose etag https://registry.npmjs.org/grunt-newer from cache
+193 http 304 https://registry.npmjs.org/grunt-svgmin
+194 silly registry.get cb [ 304,
+194 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+194 silly registry.get     server: 'Apache',
+194 silly registry.get     via: '1.1 varnish',
+194 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+194 silly registry.get     'cache-control': 'max-age=60',
+194 silly registry.get     etag: '"SZVTFTJ3NLA2BA7TRAV4ZXGS"',
+194 silly registry.get     'x-served-by': 'cache-jfk1027-JFK',
+194 silly registry.get     'x-cache': 'HIT',
+194 silly registry.get     'x-cache-hits': '1',
+194 silly registry.get     'x-timer': 'S1410024732.398816,VS0,VE0',
+194 silly registry.get     vary: 'Accept',
+194 silly registry.get     'content-length': '0',
+194 silly registry.get     'keep-alive': 'timeout=10, max=49',
+194 silly registry.get     connection: 'Keep-Alive' } ]
+195 verbose etag https://registry.npmjs.org/grunt-svgmin from cache
+196 silly addNameRange number 2 { name: 'grunt-contrib-htmlmin',
+196 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+196 silly addNameRange   hasData: true }
+197 silly addNameRange versions [ 'grunt-contrib-htmlmin',
+197 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.1-rc7', '0.2.0', '0.3.0' ] ]
+198 verbose addNamed [ 'grunt-contrib-htmlmin', '0.3.0' ]
+199 verbose addNamed [ '0.3.0', '0.3.0' ]
+200 silly lockFile b253161d-grunt-contrib-htmlmin-0-3-0 grunt-contrib-htmlmin@0.3.0
+201 verbose lock grunt-contrib-htmlmin@0.3.0 /Users/InRhythm041/.npm/b253161d-grunt-contrib-htmlmin-0-3-0.lock
+202 silly addNameRange number 2 { name: 'grunt-contrib-imagemin',
+202 silly addNameRange   range: '>=0.8.0-0 <0.9.0-0',
+202 silly addNameRange   hasData: true }
+203 silly addNameRange versions [ 'grunt-contrib-imagemin',
+203 silly addNameRange   [ '0.1.0',
+203 silly addNameRange     '0.1.1',
+203 silly addNameRange     '0.1.2',
+203 silly addNameRange     '0.1.3',
+203 silly addNameRange     '0.1.4',
+203 silly addNameRange     '0.1.1-rc7',
+203 silly addNameRange     '0.1.1-rc8',
+203 silly addNameRange     '0.2.0',
+203 silly addNameRange     '0.2.1',
+203 silly addNameRange     '0.3.0',
+203 silly addNameRange     '0.4.0',
+203 silly addNameRange     '0.4.1',
+203 silly addNameRange     '0.5.0',
+203 silly addNameRange     '0.6.0',
+203 silly addNameRange     '0.6.1',
+203 silly addNameRange     '0.7.0',
+203 silly addNameRange     '0.7.1',
+203 silly addNameRange     '0.7.2',
+203 silly addNameRange     '0.8.0',
+203 silly addNameRange     '0.8.1' ] ]
+204 verbose addNamed [ 'grunt-contrib-imagemin', '0.8.1' ]
+205 verbose addNamed [ '0.8.1', '0.8.1' ]
+206 silly lockFile b85fa733-grunt-contrib-imagemin-0-8-1 grunt-contrib-imagemin@0.8.1
+207 verbose lock grunt-contrib-imagemin@0.8.1 /Users/InRhythm041/.npm/b85fa733-grunt-contrib-imagemin-0-8-1.lock
+208 silly addNameRange number 2 { name: 'grunt-contrib-cssmin',
+208 silly addNameRange   range: '>=0.10.0-0 <0.11.0-0',
+208 silly addNameRange   hasData: true }
+209 silly addNameRange versions [ 'grunt-contrib-cssmin',
+209 silly addNameRange   [ '0.4.0',
+209 silly addNameRange     '0.4.1',
+209 silly addNameRange     '0.4.2',
+209 silly addNameRange     '0.5.0',
+209 silly addNameRange     '0.6.0',
+209 silly addNameRange     '0.6.1',
+209 silly addNameRange     '0.6.2',
+209 silly addNameRange     '0.7.0',
+209 silly addNameRange     '0.8.0',
+209 silly addNameRange     '0.9.0',
+209 silly addNameRange     '0.10.0' ] ]
+210 verbose addNamed [ 'grunt-contrib-cssmin', '0.10.0' ]
+211 verbose addNamed [ '0.10.0', '0.10.0' ]
+212 silly lockFile 9ea8e840-grunt-contrib-cssmin-0-10-0 grunt-contrib-cssmin@0.10.0
+213 verbose lock grunt-contrib-cssmin@0.10.0 /Users/InRhythm041/.npm/9ea8e840-grunt-contrib-cssmin-0-10-0.lock
+214 silly addNameRange number 2 { name: 'grunt-newer',
+214 silly addNameRange   range: '>=0.7.0-0 <0.8.0-0',
+214 silly addNameRange   hasData: true }
+215 silly addNameRange versions [ 'grunt-newer',
+215 silly addNameRange   [ '0.1.0',
+215 silly addNameRange     '0.2.0',
+215 silly addNameRange     '0.3.1',
+215 silly addNameRange     '0.4.0',
+215 silly addNameRange     '0.4.1',
+215 silly addNameRange     '0.5.0',
+215 silly addNameRange     '0.5.1',
+215 silly addNameRange     '0.5.2',
+215 silly addNameRange     '0.5.3',
+215 silly addNameRange     '0.5.4',
+215 silly addNameRange     '0.6.0',
+215 silly addNameRange     '0.6.1',
+215 silly addNameRange     '0.7.0' ] ]
+216 verbose addNamed [ 'grunt-newer', '0.7.0' ]
+217 verbose addNamed [ '0.7.0', '0.7.0' ]
+218 silly lockFile fbffb9b4-grunt-newer-0-7-0 grunt-newer@0.7.0
+219 verbose lock grunt-newer@0.7.0 /Users/InRhythm041/.npm/fbffb9b4-grunt-newer-0-7-0.lock
+220 silly addNameRange number 2 { name: 'grunt-svgmin',
+220 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+220 silly addNameRange   hasData: true }
+221 silly addNameRange versions [ 'grunt-svgmin',
+221 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '0.3.0', '0.3.1', '0.4.0', '1.0.0' ] ]
+222 verbose addNamed [ 'grunt-svgmin', '0.4.0' ]
+223 verbose addNamed [ '0.4.0', '0.4.0' ]
+224 silly lockFile 96533225-grunt-svgmin-0-4-0 grunt-svgmin@0.4.0
+225 verbose lock grunt-svgmin@0.4.0 /Users/InRhythm041/.npm/96533225-grunt-svgmin-0-4-0.lock
+226 http 304 https://registry.npmjs.org/grunt-mocha
+227 silly registry.get cb [ 304,
+227 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+227 silly registry.get     server: 'Apache',
+227 silly registry.get     via: '1.1 varnish',
+227 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+227 silly registry.get     'cache-control': 'max-age=60',
+227 silly registry.get     etag: '"63O7SGQNLP5JIM8JBXWH7M4JJ"',
+227 silly registry.get     'x-served-by': 'cache-jfk1029-JFK',
+227 silly registry.get     'x-cache': 'HIT',
+227 silly registry.get     'x-cache-hits': '1',
+227 silly registry.get     'x-timer': 'S1410024732.393301,VS0,VE14',
+227 silly registry.get     vary: 'Accept',
+227 silly registry.get     'content-length': '0',
+227 silly registry.get     'keep-alive': 'timeout=10, max=50',
+227 silly registry.get     connection: 'Keep-Alive' } ]
+228 verbose etag https://registry.npmjs.org/grunt-mocha from cache
+229 http 304 https://registry.npmjs.org/grunt-modernizr
+230 silly registry.get cb [ 304,
+230 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+230 silly registry.get     server: 'Apache',
+230 silly registry.get     via: '1.1 varnish',
+230 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+230 silly registry.get     'cache-control': 'max-age=60',
+230 silly registry.get     etag: '"90GWRK7GCGO9W2N6XRKU9T60R"',
+230 silly registry.get     'x-served-by': 'cache-jfk1027-JFK',
+230 silly registry.get     'x-cache': 'HIT',
+230 silly registry.get     'x-cache-hits': '1',
+230 silly registry.get     'x-timer': 'S1410024732.394148,VS0,VE13',
+230 silly registry.get     vary: 'Accept',
+230 silly registry.get     'content-length': '0',
+230 silly registry.get     'keep-alive': 'timeout=10, max=49',
+230 silly registry.get     connection: 'Keep-Alive' } ]
+231 verbose etag https://registry.npmjs.org/grunt-modernizr from cache
+232 silly lockFile b253161d-grunt-contrib-htmlmin-0-3-0 grunt-contrib-htmlmin@0.3.0
+233 silly lockFile b253161d-grunt-contrib-htmlmin-0-3-0 grunt-contrib-htmlmin@0.3.0
+234 silly lockFile b85fa733-grunt-contrib-imagemin-0-8-1 grunt-contrib-imagemin@0.8.1
+235 silly lockFile b85fa733-grunt-contrib-imagemin-0-8-1 grunt-contrib-imagemin@0.8.1
+236 silly lockFile 955689d3-grunt-contrib-htmlmin-0-3-0 grunt-contrib-htmlmin@^0.3.0
+237 silly lockFile 955689d3-grunt-contrib-htmlmin-0-3-0 grunt-contrib-htmlmin@^0.3.0
+238 silly lockFile cbed4c69-grunt-contrib-imagemin-0-8-0 grunt-contrib-imagemin@^0.8.0
+239 silly lockFile cbed4c69-grunt-contrib-imagemin-0-8-0 grunt-contrib-imagemin@^0.8.0
+240 silly lockFile 9ea8e840-grunt-contrib-cssmin-0-10-0 grunt-contrib-cssmin@0.10.0
+241 silly lockFile 9ea8e840-grunt-contrib-cssmin-0-10-0 grunt-contrib-cssmin@0.10.0
+242 silly lockFile 27341b2e-grunt-contrib-cssmin-0-10-0 grunt-contrib-cssmin@^0.10.0
+243 silly lockFile 27341b2e-grunt-contrib-cssmin-0-10-0 grunt-contrib-cssmin@^0.10.0
+244 silly lockFile fbffb9b4-grunt-newer-0-7-0 grunt-newer@0.7.0
+245 silly lockFile fbffb9b4-grunt-newer-0-7-0 grunt-newer@0.7.0
+246 silly lockFile 78b2a39f-grunt-newer-0-7-0 grunt-newer@^0.7.0
+247 silly lockFile 78b2a39f-grunt-newer-0-7-0 grunt-newer@^0.7.0
+248 silly addNameRange number 2 { name: 'grunt-mocha',
+248 silly addNameRange   range: '>=0.4.10-0 <0.5.0-0',
+248 silly addNameRange   hasData: true }
+249 silly addNameRange versions [ 'grunt-mocha',
+249 silly addNameRange   [ '0.1.0',
+249 silly addNameRange     '0.1.1',
+249 silly addNameRange     '0.1.2',
+249 silly addNameRange     '0.1.3',
+249 silly addNameRange     '0.1.4',
+249 silly addNameRange     '0.1.5',
+249 silly addNameRange     '0.1.6',
+249 silly addNameRange     '0.1.7',
+249 silly addNameRange     '0.2.0',
+249 silly addNameRange     '0.2.1',
+249 silly addNameRange     '0.2.2',
+249 silly addNameRange     '0.2.3',
+249 silly addNameRange     '0.3.0',
+249 silly addNameRange     '0.3.1',
+249 silly addNameRange     '0.3.2',
+249 silly addNameRange     '0.3.3',
+249 silly addNameRange     '0.3.4',
+249 silly addNameRange     '0.4.0',
+249 silly addNameRange     '0.4.1',
+249 silly addNameRange     '0.4.4',
+249 silly addNameRange     '0.4.5',
+249 silly addNameRange     '0.4.6',
+249 silly addNameRange     '0.4.7',
+249 silly addNameRange     '0.4.8',
+249 silly addNameRange     '0.4.9',
+249 silly addNameRange     '0.4.10',
+249 silly addNameRange     '0.4.11' ] ]
+250 verbose addNamed [ 'grunt-mocha', '0.4.11' ]
+251 verbose addNamed [ '0.4.11', '0.4.11' ]
+252 silly lockFile f98f2b4e-grunt-mocha-0-4-11 grunt-mocha@0.4.11
+253 verbose lock grunt-mocha@0.4.11 /Users/InRhythm041/.npm/f98f2b4e-grunt-mocha-0-4-11.lock
+254 silly lockFile 96533225-grunt-svgmin-0-4-0 grunt-svgmin@0.4.0
+255 silly lockFile 96533225-grunt-svgmin-0-4-0 grunt-svgmin@0.4.0
+256 silly addNameRange number 2 { name: 'grunt-modernizr',
+256 silly addNameRange   range: '>=0.5.2-0 <0.6.0-0',
+256 silly addNameRange   hasData: true }
+257 silly addNameRange versions [ 'grunt-modernizr',
+257 silly addNameRange   [ '0.1.0',
+257 silly addNameRange     '0.1.1',
+257 silly addNameRange     '0.1.2',
+257 silly addNameRange     '0.1.3',
+257 silly addNameRange     '0.1.4',
+257 silly addNameRange     '0.1.5',
+257 silly addNameRange     '0.1.6',
+257 silly addNameRange     '0.2.0',
+257 silly addNameRange     '0.2.1',
+257 silly addNameRange     '0.2.2',
+257 silly addNameRange     '0.3.0',
+257 silly addNameRange     '0.3.1',
+257 silly addNameRange     '0.4.0',
+257 silly addNameRange     '0.4.1',
+257 silly addNameRange     '0.5.0',
+257 silly addNameRange     '0.5.1',
+257 silly addNameRange     '0.5.2' ] ]
+258 verbose addNamed [ 'grunt-modernizr', '0.5.2' ]
+259 verbose addNamed [ '0.5.2', '0.5.2' ]
+260 silly lockFile cb06becf-grunt-modernizr-0-5-2 grunt-modernizr@0.5.2
+261 verbose lock grunt-modernizr@0.5.2 /Users/InRhythm041/.npm/cb06becf-grunt-modernizr-0-5-2.lock
+262 silly lockFile e5c3356f-grunt-svgmin-0-4-0 grunt-svgmin@^0.4.0
+263 silly lockFile e5c3356f-grunt-svgmin-0-4-0 grunt-svgmin@^0.4.0
+264 silly lockFile f98f2b4e-grunt-mocha-0-4-11 grunt-mocha@0.4.11
+265 silly lockFile f98f2b4e-grunt-mocha-0-4-11 grunt-mocha@0.4.11
+266 silly lockFile cb06becf-grunt-modernizr-0-5-2 grunt-modernizr@0.5.2
+267 silly lockFile cb06becf-grunt-modernizr-0-5-2 grunt-modernizr@0.5.2
+268 silly lockFile 792af9b6-grunt-mocha-0-4-10 grunt-mocha@^0.4.10
+269 silly lockFile 792af9b6-grunt-mocha-0-4-10 grunt-mocha@^0.4.10
+270 silly lockFile fb403abc-grunt-modernizr-0-5-2 grunt-modernizr@^0.5.2
+271 silly lockFile fb403abc-grunt-modernizr-0-5-2 grunt-modernizr@^0.5.2
+272 http 304 https://registry.npmjs.org/grunt-wiredep
+273 silly registry.get cb [ 304,
+273 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+273 silly registry.get     server: 'Apache',
+273 silly registry.get     via: '1.1 varnish',
+273 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+273 silly registry.get     'cache-control': 'max-age=60',
+273 silly registry.get     etag: '"C9NSZZBDEPNSJIS73MQTX83LQ"',
+273 silly registry.get     'x-served-by': 'cache-jfk1030-JFK',
+273 silly registry.get     'x-cache': 'HIT',
+273 silly registry.get     'x-cache-hits': '1',
+273 silly registry.get     'x-timer': 'S1410024732.388667,VS0,VE85',
+273 silly registry.get     vary: 'Accept',
+273 silly registry.get     'content-length': '0',
+273 silly registry.get     'keep-alive': 'timeout=10, max=50',
+273 silly registry.get     connection: 'Keep-Alive' } ]
+274 verbose etag https://registry.npmjs.org/grunt-wiredep from cache
+275 silly addNameRange number 2 { name: 'grunt-wiredep',
+275 silly addNameRange   range: '>=1.7.0-0 <2.0.0-0',
+275 silly addNameRange   hasData: true }
+276 silly addNameRange versions [ 'grunt-wiredep', [ '1.7.0', '1.7.1', '1.8.0' ] ]
+277 verbose addNamed [ 'grunt-wiredep', '1.8.0' ]
+278 verbose addNamed [ '1.8.0', '1.8.0' ]
+279 silly lockFile 350eca82-grunt-wiredep-1-8-0 grunt-wiredep@1.8.0
+280 verbose lock grunt-wiredep@1.8.0 /Users/InRhythm041/.npm/350eca82-grunt-wiredep-1-8-0.lock
+281 silly lockFile 350eca82-grunt-wiredep-1-8-0 grunt-wiredep@1.8.0
+282 silly lockFile 350eca82-grunt-wiredep-1-8-0 grunt-wiredep@1.8.0
+283 silly lockFile 93ccb32e-grunt-wiredep-1-7-0 grunt-wiredep@^1.7.0
+284 silly lockFile 93ccb32e-grunt-wiredep-1-7-0 grunt-wiredep@^1.7.0
+285 silly resolved [ { name: 'grunt-contrib-htmlmin',
+285 silly resolved     description: 'Minify HTML',
+285 silly resolved     version: '0.3.0',
+285 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+285 silly resolved     repository:
+285 silly resolved      { type: 'git',
+285 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-htmlmin' },
+285 silly resolved     licenses: [ [Object] ],
+285 silly resolved     engines: { node: '>= 0.10.0' },
+285 silly resolved     scripts: { test: 'grunt test' },
+285 silly resolved     dependencies:
+285 silly resolved      { chalk: '~0.4.0',
+285 silly resolved        'html-minifier': '~0.6.0',
+285 silly resolved        'pretty-bytes': '~0.1.0' },
+285 silly resolved     devDependencies:
+285 silly resolved      { grunt: '~0.4.2',
+285 silly resolved        'grunt-contrib-clean': '~0.5.0',
+285 silly resolved        'grunt-contrib-internal': '~0.4.4',
+285 silly resolved        'grunt-contrib-jshint': '~0.10.0',
+285 silly resolved        'grunt-contrib-nodeunit': '~0.3.0' },
+285 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+285 silly resolved     keywords: [ 'gruntplugin', 'html', 'min', 'minify', 'compress' ],
+285 silly resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+285 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-htmlmin/issues' },
+285 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-htmlmin',
+285 silly resolved     _id: 'grunt-contrib-htmlmin@0.3.0',
+285 silly resolved     dist:
+285 silly resolved      { shasum: 'c960802048f609925e9d0ef1b0670904b4c5a3fd',
+285 silly resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-htmlmin/-/grunt-contrib-htmlmin-0.3.0.tgz' },
+285 silly resolved     _from: 'grunt-contrib-htmlmin@^0.3.0',
+285 silly resolved     _npmVersion: '1.4.3',
+285 silly resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+285 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+285 silly resolved     directories: {},
+285 silly resolved     _shasum: 'c960802048f609925e9d0ef1b0670904b4c5a3fd',
+285 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-htmlmin/-/grunt-contrib-htmlmin-0.3.0.tgz',
+285 silly resolved     readme: 'ERROR: No README data found!' },
+285 silly resolved   { name: 'grunt-contrib-imagemin',
+285 silly resolved     description: 'Minify images',
+285 silly resolved     version: '0.8.1',
+285 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+285 silly resolved     repository:
+285 silly resolved      { type: 'git',
+285 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-imagemin' },
+285 silly resolved     licenses: [ [Object] ],
+285 silly resolved     engines: { node: '>=0.10.0' },
+285 silly resolved     scripts: { test: 'grunt test' },
+285 silly resolved     dependencies:
+285 silly resolved      { async: '^0.9.0',
+285 silly resolved        chalk: '^0.5.1',
+285 silly resolved        imagemin: '^1.0.4',
+285 silly resolved        'pretty-bytes': '^1.0.1' },
+285 silly resolved     devDependencies:
+285 silly resolved      { grunt: '^0.4.5',
+285 silly resolved        'grunt-contrib-clean': '^0.6.0',
+285 silly resolved        'grunt-contrib-internal': '^0.4.10',
+285 silly resolved        'grunt-contrib-jshint': '^0.10.0',
+285 silly resolved        'grunt-contrib-nodeunit': '^0.4.1',
+285 silly resolved        'time-grunt': '^1.0.0' },
+285 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+285 silly resolved     keywords:
+285 silly resolved      [ 'gruntplugin',
+285 silly resolved        'compress',
+285 silly resolved        'gif',
+285 silly resolved        'image',
+285 silly resolved        'img',
+285 silly resolved        'jpeg',
+285 silly resolved        'jpg',
+285 silly resolved        'minify',
+285 silly resolved        'png' ],
+285 silly resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+285 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-imagemin/issues' },
+285 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-imagemin',
+285 silly resolved     _id: 'grunt-contrib-imagemin@0.8.1',
+285 silly resolved     _shasum: '78cf20c849c811947b38eddd8efbf3e3d2d61b78',
+285 silly resolved     _from: 'grunt-contrib-imagemin@^0.8.0',
+285 silly resolved     _npmVersion: '1.4.9',
+285 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+285 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+285 silly resolved     dist:
+285 silly resolved      { shasum: '78cf20c849c811947b38eddd8efbf3e3d2d61b78',
+285 silly resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-imagemin/-/grunt-contrib-imagemin-0.8.1.tgz' },
+285 silly resolved     directories: {},
+285 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-imagemin/-/grunt-contrib-imagemin-0.8.1.tgz',
+285 silly resolved     readme: 'ERROR: No README data found!' },
+285 silly resolved   { name: 'grunt-contrib-cssmin',
+285 silly resolved     description: 'Compress CSS files.',
+285 silly resolved     version: '0.10.0',
+285 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-cssmin',
+285 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+285 silly resolved     repository:
+285 silly resolved      { type: 'git',
+285 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-cssmin.git' },
+285 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-cssmin/issues' },
+285 silly resolved     licenses: [ [Object] ],
+285 silly resolved     engines: { node: '>= 0.8.0' },
+285 silly resolved     scripts: { test: 'grunt test' },
+285 silly resolved     dependencies: { chalk: '~0.4.0', 'clean-css': '~2.2.0', maxmin: '~0.2.0' },
+285 silly resolved     devDependencies:
+285 silly resolved      { 'grunt-contrib-jshint': '~0.10.0',
+285 silly resolved        'grunt-contrib-nodeunit': '~0.4.0',
+285 silly resolved        'grunt-contrib-clean': '~0.5.0',
+285 silly resolved        'grunt-contrib-internal': '~0.4.6',
+285 silly resolved        grunt: '~0.4.1' },
+285 silly resolved     peerDependencies: { grunt: '~0.4.1' },
+285 silly resolved     keywords: [ 'gruntplugin', 'cssmin' ],
+285 silly resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+285 silly resolved     _id: 'grunt-contrib-cssmin@0.10.0',
+285 silly resolved     dist:
+285 silly resolved      { shasum: 'e05f341e753a9674b2b1070220fdcbac22079418',
+285 silly resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.10.0.tgz' },
+285 silly resolved     _from: 'grunt-contrib-cssmin@^0.10.0',
+285 silly resolved     _npmVersion: '1.3.26',
+285 silly resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+285 silly resolved     maintainers:
+285 silly resolved      [ [Object],
+285 silly resolved        [Object],
+285 silly resolved        [Object],
+285 silly resolved        [Object],
+285 silly resolved        [Object],
+285 silly resolved        [Object],
+285 silly resolved        [Object] ],
+285 silly resolved     directories: {},
+285 silly resolved     _shasum: 'e05f341e753a9674b2b1070220fdcbac22079418',
+285 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.10.0.tgz',
+285 silly resolved     readme: 'ERROR: No README data found!' },
+285 silly resolved   { name: 'grunt-newer',
+285 silly resolved     description: 'Run Grunt tasks with only those source files modified since the last successful run.',
+285 silly resolved     version: '0.7.0',
+285 silly resolved     homepage: 'https://github.com/tschaub/grunt-newer',
+285 silly resolved     author: { name: 'Tim Schaub', url: 'http://tschaub.net/' },
+285 silly resolved     repository: { type: 'git', url: 'git://github.com/tschaub/grunt-newer.git' },
+285 silly resolved     bugs: { url: 'https://github.com/tschaub/grunt-newer/issues' },
+285 silly resolved     licenses: [ [Object] ],
+285 silly resolved     main: 'gruntfile.js',
+285 silly resolved     engines: { node: '>= 0.8.0' },
+285 silly resolved     scripts: { test: 'grunt test', start: 'grunt test watch' },
+285 silly resolved     devDependencies:
+285 silly resolved      { grunt: '0.4.2',
+285 silly resolved        'grunt-cli': '0.1.13',
+285 silly resolved        'grunt-contrib-watch': '0.5.3',
+285 silly resolved        'grunt-contrib-jshint': '0.8.0',
+285 silly resolved        chai: '1.9.0',
+285 silly resolved        'grunt-cafe-mocha': '0.1.11',
+285 silly resolved        wrench: '1.5.7',
+285 silly resolved        tmp: '0.0.23',
+285 silly resolved        'grunt-contrib-clean': '0.5.0',
+285 silly resolved        'mock-fs': '2.x' },
+285 silly resolved     peerDependencies: { grunt: '~0.4.1' },
+285 silly resolved     keywords: [ 'gruntplugin', 'grunt', 'newer', 'files' ],
+285 silly resolved     dependencies: { async: '0.2.10', rimraf: '2.2.6' },
+285 silly resolved     _id: 'grunt-newer@0.7.0',
+285 silly resolved     dist:
+285 silly resolved      { shasum: '376d9d9b64ce5c648b6bfa1bda98f7bc2193e41e',
+285 silly resolved        tarball: 'http://registry.npmjs.org/grunt-newer/-/grunt-newer-0.7.0.tgz' },
+285 silly resolved     _from: 'grunt-newer@^0.7.0',
+285 silly resolved     _npmVersion: '1.3.17',
+285 silly resolved     _npmUser: { name: 'tschaub', email: 'tim.schaub@gmail.com' },
+285 silly resolved     maintainers: [ [Object] ],
+285 silly resolved     directories: {},
+285 silly resolved     _shasum: '376d9d9b64ce5c648b6bfa1bda98f7bc2193e41e',
+285 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-newer/-/grunt-newer-0.7.0.tgz',
+285 silly resolved     readme: 'ERROR: No README data found!' },
+285 silly resolved   { name: 'grunt-svgmin',
+285 silly resolved     version: '0.4.0',
+285 silly resolved     description: 'Minify SVG',
+285 silly resolved     keywords:
+285 silly resolved      [ 'gruntplugin',
+285 silly resolved        'svg',
+285 silly resolved        'vector',
+285 silly resolved        'graphic',
+285 silly resolved        'image',
+285 silly resolved        'optimize',
+285 silly resolved        'minify' ],
+285 silly resolved     homepage: 'https://github.com/sindresorhus/grunt-svgmin',
+285 silly resolved     bugs: { url: 'https://github.com/sindresorhus/grunt-svgmin/issues' },
+285 silly resolved     author:
+285 silly resolved      { name: 'Sindre Sorhus',
+285 silly resolved        email: 'sindresorhus@gmail.com',
+285 silly resolved        url: 'http://sindresorhus.com' },
+285 silly resolved     repository:
+285 silly resolved      { type: 'git',
+285 silly resolved        url: 'git://github.com/sindresorhus/grunt-svgmin.git' },
+285 silly resolved     scripts: { test: 'grunt' },
+285 silly resolved     dependencies:
+285 silly resolved      { svgo: '~0.4.1',
+285 silly resolved        chalk: '~0.4.0',
+285 silly resolved        'each-async': '~0.1.2',
+285 silly resolved        'pretty-bytes': '~0.1.0' },
+285 silly resolved     devDependencies:
+285 silly resolved      { grunt: '~0.4.1',
+285 silly resolved        'grunt-contrib-clean': '~0.5.0',
+285 silly resolved        'grunt-simple-mocha': '~0.4.0' },
+285 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+285 silly resolved     engines: { node: '>=0.10.0' },
+285 silly resolved     licenses: { type: 'MIT' },
+285 silly resolved     _id: 'grunt-svgmin@0.4.0',
+285 silly resolved     dist:
+285 silly resolved      { shasum: 'f19d1193022ae0080e0fae5d313e12ef7cae0aae',
+285 silly resolved        tarball: 'http://registry.npmjs.org/grunt-svgmin/-/grunt-svgmin-0.4.0.tgz' },
+285 silly resolved     _from: 'grunt-svgmin@^0.4.0',
+285 silly resolved     _npmVersion: '1.4.4',
+285 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+285 silly resolved     maintainers: [ [Object] ],
+285 silly resolved     directories: {},
+285 silly resolved     _shasum: 'f19d1193022ae0080e0fae5d313e12ef7cae0aae',
+285 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-svgmin/-/grunt-svgmin-0.4.0.tgz',
+285 silly resolved     readme: 'ERROR: No README data found!' },
+285 silly resolved   { name: 'grunt-mocha',
+285 silly resolved     description: 'Grunt task for running client-side Mocha specs in PhantomJS',
+285 silly resolved     version: '0.4.11',
+285 silly resolved     homepage: 'https://github.com/kmiyashiro/grunt-mocha',
+285 silly resolved     registry: 'http://registry.npmjs.org/',
+285 silly resolved     author:
+285 silly resolved      { name: 'Kelly Miyashiro',
+285 silly resolved        email: 'miyashiro.kelly@gmail.com',
+285 silly resolved        url: 'http://non-diligent.com' },
+285 silly resolved     repository:
+285 silly resolved      { type: 'git',
+285 silly resolved        url: 'git://github.com/kmiyashiro/grunt-mocha.git' },
+285 silly resolved     bugs: { url: 'https://github.com/kmiyashiro/grunt-mocha/issues' },
+285 silly resolved     licenses: [ [Object] ],
+285 silly resolved     main: 'Gruntfile.js',
+285 silly resolved     engines: { node: '*' },
+285 silly resolved     scripts: { test: 'grunt test' },
+285 silly resolved     dependencies:
+285 silly resolved      { 'grunt-lib-phantomjs': '~0.4',
+285 silly resolved        mocha: '~1.18',
+285 silly resolved        lodash: '~2.3.0' },
+285 silly resolved     peerDependencies: { grunt: '~0.4' },
+285 silly resolved     devDependencies:
+285 silly resolved      { grunt: '~0.4',
+285 silly resolved        'grunt-contrib-connect': '~0.2',
+285 silly resolved        'grunt-contrib-jshint': '~0.3' },
+285 silly resolved     keywords: [ 'gruntplugin', 'mocha', 'test', 'phantomjs' ],
+285 silly resolved     files: [ 'growl', 'phantomjs', 'support', 'tasks' ],
+285 silly resolved     _id: 'grunt-mocha@0.4.11',
+285 silly resolved     dist:
+285 silly resolved      { shasum: '7a7c54119d2e032d0da1aa1c951dc93969dc838e',
+285 silly resolved        tarball: 'http://registry.npmjs.org/grunt-mocha/-/grunt-mocha-0.4.11.tgz' },
+285 silly resolved     _from: 'grunt-mocha@^0.4.10',
+285 silly resolved     _npmVersion: '1.4.3',
+285 silly resolved     _npmUser: { name: 'kmiyashiro', email: 'miyashiro.kelly@gmail.com' },
+285 silly resolved     maintainers: [ [Object] ],
+285 silly resolved     directories: {},
+285 silly resolved     _shasum: '7a7c54119d2e032d0da1aa1c951dc93969dc838e',
+285 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-mocha/-/grunt-mocha-0.4.11.tgz',
+285 silly resolved     readme: 'ERROR: No README data found!' },
+285 silly resolved   { name: 'grunt-modernizr',
+285 silly resolved     description: 'Build out a lean, mean Modernizr machine.',
+285 silly resolved     version: '0.5.2',
+285 silly resolved     homepage: 'https://github.com/doctyper/grunt-modernizr',
+285 silly resolved     author:
+285 silly resolved      { name: 'Richard Herrera',
+285 silly resolved        email: 'rich@doctyper.com',
+285 silly resolved        url: 'http://doctyper.com' },
+285 silly resolved     repository:
+285 silly resolved      { type: 'git',
+285 silly resolved        url: 'git://github.com/doctyper/grunt-modernizr.git' },
+285 silly resolved     bugs: { url: 'https://github.com/doctyper/grunt-modernizr/issues' },
+285 silly resolved     licenses: [ [Object] ],
+285 silly resolved     main: 'grunt.js',
+285 silly resolved     bin: { 'grunt-modernizr': 'bin/grunt-modernizr' },
+285 silly resolved     engines: { node: '*' },
+285 silly resolved     dependencies:
+285 silly resolved      { 'uglify-js': '1.3.3',
+285 silly resolved        'promised-io': '0.3.x',
+285 silly resolved        colors: '0.6.x',
+285 silly resolved        request: '~2.27.0' },
+285 silly resolved     devDependencies:
+285 silly resolved      { grunt: '~0.4.2',
+285 silly resolved        'grunt-contrib-jshint': '~0.7.0',
+285 silly resolved        'grunt-contrib-nodeunit': '0.1.2',
+285 silly resolved        'grunt-contrib-watch': '~0.3.1',
+285 silly resolved        mocha: '>=1.6.0',
+285 silly resolved        nexpect: '>=0.2.4' },
+285 silly resolved     scripts: { test: 'node test/runner.js' },
+285 silly resolved     keywords: [ 'gruntplugin', 'modernizr' ],
+285 silly resolved     _id: 'grunt-modernizr@0.5.2',
+285 silly resolved     dist:
+285 silly resolved      { shasum: 'e10e8e6d949b9acc59940a089232a5f210967173',
+285 silly resolved        tarball: 'http://registry.npmjs.org/grunt-modernizr/-/grunt-modernizr-0.5.2.tgz' },
+285 silly resolved     _from: 'grunt-modernizr@^0.5.2',
+285 silly resolved     _npmVersion: '1.4.3',
+285 silly resolved     _npmUser: { name: 'doctyper', email: 'rich@doctyper.com' },
+285 silly resolved     maintainers: [ [Object] ],
+285 silly resolved     directories: {},
+285 silly resolved     _shasum: 'e10e8e6d949b9acc59940a089232a5f210967173',
+285 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-modernizr/-/grunt-modernizr-0.5.2.tgz',
+285 silly resolved     readme: 'ERROR: No README data found!' },
+285 silly resolved   { name: 'grunt-wiredep',
+285 silly resolved     description: 'Inject your Bower dependencies right into your HTML from Grunt.',
+285 silly resolved     version: '1.8.0',
+285 silly resolved     homepage: 'http://stephenplusplus.github.io/grunt-wiredep',
+285 silly resolved     author:
+285 silly resolved      { name: 'Stephen Sawchuk',
+285 silly resolved        email: 'sawchuk@gmail.com',
+285 silly resolved        url: 'http://github.com/stephenplusplus' },
+285 silly resolved     keywords:
+285 silly resolved      [ 'gruntplugin',
+285 silly resolved        'html',
+285 silly resolved        'grunt',
+285 silly resolved        'bower',
+285 silly resolved        'package',
+285 silly resolved        'wiredep',
+285 silly resolved        'dependency',
+285 silly resolved        'component',
+285 silly resolved        'postinstall' ],
+285 silly resolved     repository:
+285 silly resolved      { type: 'git',
+285 silly resolved        url: 'git://github.com/stephenplusplus/grunt-wiredep' },
+285 silly resolved     licenses: [ [Object] ],
+285 silly resolved     engines: { node: '>=0.8.0', npm: '>=1.2.10' },
+285 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+285 silly resolved     dependencies: { wiredep: '^1.5.0' },
+285 silly resolved     bugs: { url: 'https://github.com/stephenplusplus/grunt-wiredep/issues' },
+285 silly resolved     _id: 'grunt-wiredep@1.8.0',
+285 silly resolved     _shasum: 'e97291e171126d6493f05d4f9a01f7115a9143f4',
+285 silly resolved     _from: 'grunt-wiredep@^1.7.0',
+285 silly resolved     _npmVersion: '1.4.9',
+285 silly resolved     _npmUser: { name: 'stephenplusplus', email: 'sawchuk@gmail.com' },
+285 silly resolved     maintainers: [ [Object] ],
+285 silly resolved     dist:
+285 silly resolved      { shasum: 'e97291e171126d6493f05d4f9a01f7115a9143f4',
+285 silly resolved        tarball: 'http://registry.npmjs.org/grunt-wiredep/-/grunt-wiredep-1.8.0.tgz' },
+285 silly resolved     directories: {},
+285 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-wiredep/-/grunt-wiredep-1.8.0.tgz',
+285 silly resolved     readme: 'ERROR: No README data found!' } ]
+286 info install grunt-contrib-htmlmin@0.3.0 into /Users/InRhythm041/karkahna
+287 info install grunt-contrib-imagemin@0.8.1 into /Users/InRhythm041/karkahna
+288 info install grunt-contrib-cssmin@0.10.0 into /Users/InRhythm041/karkahna
+289 info install grunt-newer@0.7.0 into /Users/InRhythm041/karkahna
+290 info install grunt-svgmin@0.4.0 into /Users/InRhythm041/karkahna
+291 info install grunt-mocha@0.4.11 into /Users/InRhythm041/karkahna
+292 info install grunt-modernizr@0.5.2 into /Users/InRhythm041/karkahna
+293 info install grunt-wiredep@1.8.0 into /Users/InRhythm041/karkahna
+294 info installOne grunt-contrib-htmlmin@0.3.0
+295 info installOne grunt-contrib-imagemin@0.8.1
+296 info installOne grunt-contrib-cssmin@0.10.0
+297 info installOne grunt-newer@0.7.0
+298 info installOne grunt-svgmin@0.4.0
+299 info installOne grunt-mocha@0.4.11
+300 info installOne grunt-modernizr@0.5.2
+301 info installOne grunt-wiredep@1.8.0
+302 verbose node_modules/grunt-contrib-htmlmin unbuild
+303 verbose node_modules/grunt-contrib-imagemin unbuild
+304 verbose node_modules/grunt-newer unbuild
+305 verbose node_modules/grunt-svgmin unbuild
+306 verbose node_modules/grunt-mocha unbuild
+307 verbose node_modules/grunt-modernizr unbuild
+308 verbose node_modules/grunt-wiredep unbuild
+309 verbose node_modules/grunt-contrib-cssmin unbuild
+310 verbose tar unpack /Users/InRhythm041/.npm/grunt-contrib-htmlmin/0.3.0/package.tgz
+311 silly lockFile aa2ae38f-de-modules-grunt-contrib-htmlmin tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-htmlmin
+312 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-htmlmin /Users/InRhythm041/.npm/aa2ae38f-de-modules-grunt-contrib-htmlmin.lock
+313 silly lockFile 5cb54e98-ontrib-htmlmin-0-3-0-package-tgz tar:///Users/InRhythm041/.npm/grunt-contrib-htmlmin/0.3.0/package.tgz
+314 verbose lock tar:///Users/InRhythm041/.npm/grunt-contrib-htmlmin/0.3.0/package.tgz /Users/InRhythm041/.npm/5cb54e98-ontrib-htmlmin-0-3-0-package-tgz.lock
+315 verbose tar unpack /Users/InRhythm041/.npm/grunt-contrib-imagemin/0.8.1/package.tgz
+316 silly lockFile dcad79ff-e-modules-grunt-contrib-imagemin tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-imagemin
+317 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-imagemin /Users/InRhythm041/.npm/dcad79ff-e-modules-grunt-contrib-imagemin.lock
+318 silly lockFile 56267fcc-ntrib-imagemin-0-8-1-package-tgz tar:///Users/InRhythm041/.npm/grunt-contrib-imagemin/0.8.1/package.tgz
+319 verbose lock tar:///Users/InRhythm041/.npm/grunt-contrib-imagemin/0.8.1/package.tgz /Users/InRhythm041/.npm/56267fcc-ntrib-imagemin-0-8-1-package-tgz.lock
+320 verbose tar unpack /Users/InRhythm041/.npm/grunt-newer/0.7.0/package.tgz
+321 silly lockFile 31179aab-arkahna-node-modules-grunt-newer tar:///Users/InRhythm041/karkahna/node_modules/grunt-newer
+322 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-newer /Users/InRhythm041/.npm/31179aab-arkahna-node-modules-grunt-newer.lock
+323 silly lockFile c803fa15-pm-grunt-newer-0-7-0-package-tgz tar:///Users/InRhythm041/.npm/grunt-newer/0.7.0/package.tgz
+324 verbose lock tar:///Users/InRhythm041/.npm/grunt-newer/0.7.0/package.tgz /Users/InRhythm041/.npm/c803fa15-pm-grunt-newer-0-7-0-package-tgz.lock
+325 verbose tar unpack /Users/InRhythm041/.npm/grunt-svgmin/0.4.0/package.tgz
+326 silly lockFile 1dc2a2b7-rkahna-node-modules-grunt-svgmin tar:///Users/InRhythm041/karkahna/node_modules/grunt-svgmin
+327 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-svgmin /Users/InRhythm041/.npm/1dc2a2b7-rkahna-node-modules-grunt-svgmin.lock
+328 silly lockFile ff7f0ccb-m-grunt-svgmin-0-4-0-package-tgz tar:///Users/InRhythm041/.npm/grunt-svgmin/0.4.0/package.tgz
+329 verbose lock tar:///Users/InRhythm041/.npm/grunt-svgmin/0.4.0/package.tgz /Users/InRhythm041/.npm/ff7f0ccb-m-grunt-svgmin-0-4-0-package-tgz.lock
+330 verbose tar unpack /Users/InRhythm041/.npm/grunt-mocha/0.4.11/package.tgz
+331 silly lockFile 16934aa9-arkahna-node-modules-grunt-mocha tar:///Users/InRhythm041/karkahna/node_modules/grunt-mocha
+332 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-mocha /Users/InRhythm041/.npm/16934aa9-arkahna-node-modules-grunt-mocha.lock
+333 silly lockFile 59b9ba39-m-grunt-mocha-0-4-11-package-tgz tar:///Users/InRhythm041/.npm/grunt-mocha/0.4.11/package.tgz
+334 verbose lock tar:///Users/InRhythm041/.npm/grunt-mocha/0.4.11/package.tgz /Users/InRhythm041/.npm/59b9ba39-m-grunt-mocha-0-4-11-package-tgz.lock
+335 verbose tar unpack /Users/InRhythm041/.npm/grunt-modernizr/0.5.2/package.tgz
+336 silly lockFile b8959a9f-hna-node-modules-grunt-modernizr tar:///Users/InRhythm041/karkahna/node_modules/grunt-modernizr
+337 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-modernizr /Users/InRhythm041/.npm/b8959a9f-hna-node-modules-grunt-modernizr.lock
+338 silly lockFile 92db66ff-runt-modernizr-0-5-2-package-tgz tar:///Users/InRhythm041/.npm/grunt-modernizr/0.5.2/package.tgz
+339 verbose lock tar:///Users/InRhythm041/.npm/grunt-modernizr/0.5.2/package.tgz /Users/InRhythm041/.npm/92db66ff-runt-modernizr-0-5-2-package-tgz.lock
+340 verbose tar unpack /Users/InRhythm041/.npm/grunt-wiredep/1.8.0/package.tgz
+341 silly lockFile e095638a-kahna-node-modules-grunt-wiredep tar:///Users/InRhythm041/karkahna/node_modules/grunt-wiredep
+342 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-wiredep /Users/InRhythm041/.npm/e095638a-kahna-node-modules-grunt-wiredep.lock
+343 silly lockFile 9be9ef16--grunt-wiredep-1-8-0-package-tgz tar:///Users/InRhythm041/.npm/grunt-wiredep/1.8.0/package.tgz
+344 verbose lock tar:///Users/InRhythm041/.npm/grunt-wiredep/1.8.0/package.tgz /Users/InRhythm041/.npm/9be9ef16--grunt-wiredep-1-8-0-package-tgz.lock
+345 silly gunzTarPerm modes [ '755', '644' ]
+346 silly gunzTarPerm modes [ '755', '644' ]
+347 silly gunzTarPerm modes [ '755', '644' ]
+348 silly gunzTarPerm modes [ '755', '644' ]
+349 silly gunzTarPerm modes [ '755', '644' ]
+350 silly gunzTarPerm modes [ '755', '644' ]
+351 silly gunzTarPerm modes [ '755', '644' ]
+352 silly gunzTarPerm extractEntry package.json
+353 silly gunzTarPerm extractEntry package.json
+354 silly gunzTarPerm extractEntry package.json
+355 silly gunzTarPerm extractEntry package.json
+356 silly gunzTarPerm extractEntry package.json
+357 silly gunzTarPerm extractEntry package.json
+358 silly gunzTarPerm extractEntry package.json
+359 silly gunzTarPerm extractEntry README.md
+360 silly gunzTarPerm extractEntry LICENSE-MIT
+361 silly gunzTarPerm extractEntry README.md
+362 silly gunzTarPerm extractEntry LICENSE-MIT
+363 silly gunzTarPerm extractEntry .npmignore
+364 silly gunzTarPerm extractEntry README.md
+365 silly gunzTarPerm extractEntry readme.md
+366 silly gunzTarPerm extractEntry tasks/svgmin.js
+367 silly gunzTarPerm extractEntry README.md
+368 silly gunzTarPerm extractEntry growl/error.png
+369 silly gunzTarPerm extractEntry .npmignore
+370 silly gunzTarPerm extractEntry README.md
+371 silly gunzTarPerm extractEntry .npmignore
+372 silly gunzTarPerm extractEntry .editorconfig
+373 silly gunzTarPerm extractEntry tasks/htmlmin.js
+374 silly gunzTarPerm extractEntry LICENSE-MIT
+375 silly gunzTarPerm extractEntry readme.md
+376 silly gunzTarPerm extractEntry tasks/imagemin.js
+377 silly gunzTarPerm extractEntry gruntfile.js
+378 silly gunzTarPerm extractEntry changelog.md
+379 silly gunzTarPerm extractEntry growl/ok.png
+380 silly gunzTarPerm extractEntry phantomjs/bridge.js
+381 silly gunzTarPerm extractEntry Gruntfile.js
+382 silly gunzTarPerm extractEntry .jshintrc
+383 silly gunzTarPerm extractEntry LICENSE-MIT
+384 silly gunzTarPerm extractEntry lib/util.js
+385 silly gunzTarPerm extractEntry .cache/cafemocha/all/timestamp
+386 silly gunzTarPerm extractEntry .cache/jshint/fixturesJs/timestamp
+387 silly gunzTarPerm extractEntry .cache/jshint/gruntfile/timestamp
+388 silly gunzTarPerm extractEntry .cache/jshint/issue/timestamp
+389 silly gunzTarPerm extractEntry .cache/jshint/tasks/timestamp
+390 silly gunzTarPerm extractEntry .cache/jshint/tests/timestamp
+391 silly gunzTarPerm extractEntry tasks/newer.js
+392 silly gunzTarPerm extractEntry test/helper.js
+393 silly gunzTarPerm extractEntry test/.jshintrc
+394 silly gunzTarPerm extractEntry test/integration/newer-clean-dest.spec.js
+395 silly gunzTarPerm extractEntry test/integration/newer-dest.spec.js
+396 silly gunzTarPerm extractEntry test/integration/newer-modify-none.spec.js
+397 silly gunzTarPerm extractEntry test/integration/newer-modify-one.spec.js
+398 silly gunzTarPerm extractEntry test/integration/newer-override.spec.js
+399 silly gunzTarPerm extractEntry test/integration/newer-reconfigure.spec.js
+400 silly gunzTarPerm extractEntry test/integration/fixtures/newer-clean-dest/gruntfile.js
+401 silly gunzTarPerm extractEntry test/integration/fixtures/newer-clean-dest/src/one.coffee
+402 silly gunzTarPerm extractEntry test/integration/fixtures/newer-clean-dest/src/two.coffee
+403 silly gunzTarPerm extractEntry test/integration/fixtures/newer-dest/gruntfile.js
+404 silly gunzTarPerm extractEntry test/integration/fixtures/newer-dest/src/one.coffee
+405 silly gunzTarPerm extractEntry test/integration/fixtures/newer-dest/src/two.coffee
+406 silly gunzTarPerm extractEntry test/integration/fixtures/newer-modify-none/gruntfile.js
+407 silly gunzTarPerm extractEntry test/integration/fixtures/newer-modify-none/src/one.js
+408 silly gunzTarPerm extractEntry test/integration/fixtures/newer-modify-none/src/two.js
+409 silly gunzTarPerm extractEntry test/integration/fixtures/newer-modify-one/gruntfile.js
+410 silly gunzTarPerm extractEntry test/integration/fixtures/newer-modify-one/src/one.js
+411 silly gunzTarPerm extractEntry test/integration/fixtures/newer-modify-one/src/two.js
+412 silly gunzTarPerm extractEntry test/integration/fixtures/newer-override/gruntfile.js
+413 silly gunzTarPerm extractEntry test/integration/fixtures/newer-override/src/one.js
+414 silly gunzTarPerm extractEntry test/integration/fixtures/newer-override/src/three.js
+415 silly gunzTarPerm extractEntry test/integration/fixtures/newer-override/src/two.js
+416 silly gunzTarPerm extractEntry test/integration/fixtures/newer-reconfigure/gruntfile.js
+417 silly gunzTarPerm extractEntry test/integration/fixtures/newer-reconfigure/src/one.coffee
+418 silly gunzTarPerm extractEntry test/integration/fixtures/newer-reconfigure/src/two.coffee
+419 silly gunzTarPerm extractEntry test/integration/tasks/index.js
+420 silly gunzTarPerm extractEntry test/lib/util.spec.js
+421 silly gunzTarPerm extractEntry tasks/wiredep.js
+422 silly gunzTarPerm extractEntry _assets/grunt-modernizr.sublime-project
+423 silly gunzTarPerm extractEntry _assets/grunt-modernizr.sublime-workspace
+424 silly gunzTarPerm extractEntry phantomjs/main.js
+425 silly gunzTarPerm extractEntry support/mocha-helpers.js
+426 silly gunzTarPerm extractEntry tasks/mocha.js
+427 silly gunzTarPerm extractEntry .travis.yml
+428 silly gunzTarPerm extractEntry .jshintrc
+429 verbose tar unpack /Users/InRhythm041/.npm/grunt-contrib-cssmin/0.10.0/package.tgz
+430 silly lockFile 1774d036-ode-modules-grunt-contrib-cssmin tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-cssmin
+431 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-cssmin /Users/InRhythm041/.npm/1774d036-ode-modules-grunt-contrib-cssmin.lock
+432 silly lockFile 8a05c91d-ontrib-cssmin-0-10-0-package-tgz tar:///Users/InRhythm041/.npm/grunt-contrib-cssmin/0.10.0/package.tgz
+433 verbose lock tar:///Users/InRhythm041/.npm/grunt-contrib-cssmin/0.10.0/package.tgz /Users/InRhythm041/.npm/8a05c91d-ontrib-cssmin-0-10-0-package-tgz.lock
+434 silly lockFile 1dc2a2b7-rkahna-node-modules-grunt-svgmin tar:///Users/InRhythm041/karkahna/node_modules/grunt-svgmin
+435 silly lockFile 1dc2a2b7-rkahna-node-modules-grunt-svgmin tar:///Users/InRhythm041/karkahna/node_modules/grunt-svgmin
+436 silly gunzTarPerm modes [ '755', '644' ]
+437 silly lockFile ff7f0ccb-m-grunt-svgmin-0-4-0-package-tgz tar:///Users/InRhythm041/.npm/grunt-svgmin/0.4.0/package.tgz
+438 silly lockFile ff7f0ccb-m-grunt-svgmin-0-4-0-package-tgz tar:///Users/InRhythm041/.npm/grunt-svgmin/0.4.0/package.tgz
+439 silly gunzTarPerm extractEntry bin/grunt-modernizr
+440 silly gunzTarPerm extractEntry build/modernizr-custom.js
+441 info preinstall grunt-svgmin@0.4.0
+442 silly gunzTarPerm extractEntry package.json
+443 verbose readDependencies using package.json deps
+444 verbose readDependencies using package.json deps
+445 silly lockFile aa2ae38f-de-modules-grunt-contrib-htmlmin tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-htmlmin
+446 silly lockFile aa2ae38f-de-modules-grunt-contrib-htmlmin tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-htmlmin
+447 silly gunzTarPerm extractEntry README.md
+448 silly gunzTarPerm extractEntry LICENSE-MIT
+449 silly lockFile 5cb54e98-ontrib-htmlmin-0-3-0-package-tgz tar:///Users/InRhythm041/.npm/grunt-contrib-htmlmin/0.3.0/package.tgz
+450 silly lockFile 5cb54e98-ontrib-htmlmin-0-3-0-package-tgz tar:///Users/InRhythm041/.npm/grunt-contrib-htmlmin/0.3.0/package.tgz
+451 verbose cache add [ 'pretty-bytes@~0.1.0', null ]
+452 verbose cache add name=undefined spec="pretty-bytes@~0.1.0" args=["pretty-bytes@~0.1.0",null]
+453 verbose parsed url { protocol: null,
+453 verbose parsed url   slashes: null,
+453 verbose parsed url   auth: null,
+453 verbose parsed url   host: null,
+453 verbose parsed url   port: null,
+453 verbose parsed url   hostname: null,
+453 verbose parsed url   hash: null,
+453 verbose parsed url   search: null,
+453 verbose parsed url   query: null,
+453 verbose parsed url   pathname: 'pretty-bytes@~0.1.0',
+453 verbose parsed url   path: 'pretty-bytes@~0.1.0',
+453 verbose parsed url   href: 'pretty-bytes@~0.1.0' }
+454 verbose cache add name="pretty-bytes" spec="~0.1.0" args=["pretty-bytes","~0.1.0"]
+455 verbose parsed url { protocol: null,
+455 verbose parsed url   slashes: null,
+455 verbose parsed url   auth: null,
+455 verbose parsed url   host: null,
+455 verbose parsed url   port: null,
+455 verbose parsed url   hostname: null,
+455 verbose parsed url   hash: null,
+455 verbose parsed url   search: null,
+455 verbose parsed url   query: null,
+455 verbose parsed url   pathname: '~0.1.0',
+455 verbose parsed url   path: '~0.1.0',
+455 verbose parsed url   href: '~0.1.0' }
+456 verbose addNamed [ 'pretty-bytes', '~0.1.0' ]
+457 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+458 silly lockFile 0b168859-pretty-bytes-0-1-0 pretty-bytes@~0.1.0
+459 verbose lock pretty-bytes@~0.1.0 /Users/InRhythm041/.npm/0b168859-pretty-bytes-0-1-0.lock
+460 verbose cache add [ 'svgo@~0.4.1', null ]
+461 verbose cache add name=undefined spec="svgo@~0.4.1" args=["svgo@~0.4.1",null]
+462 verbose parsed url { protocol: null,
+462 verbose parsed url   slashes: null,
+462 verbose parsed url   auth: null,
+462 verbose parsed url   host: null,
+462 verbose parsed url   port: null,
+462 verbose parsed url   hostname: null,
+462 verbose parsed url   hash: null,
+462 verbose parsed url   search: null,
+462 verbose parsed url   query: null,
+462 verbose parsed url   pathname: 'svgo@~0.4.1',
+462 verbose parsed url   path: 'svgo@~0.4.1',
+462 verbose parsed url   href: 'svgo@~0.4.1' }
+463 verbose cache add [ 'chalk@~0.4.0', null ]
+464 verbose cache add name=undefined spec="chalk@~0.4.0" args=["chalk@~0.4.0",null]
+465 verbose parsed url { protocol: null,
+465 verbose parsed url   slashes: null,
+465 verbose parsed url   auth: null,
+465 verbose parsed url   host: null,
+465 verbose parsed url   port: null,
+465 verbose parsed url   hostname: null,
+465 verbose parsed url   hash: null,
+465 verbose parsed url   search: null,
+465 verbose parsed url   query: null,
+465 verbose parsed url   pathname: 'chalk@~0.4.0',
+465 verbose parsed url   path: 'chalk@~0.4.0',
+465 verbose parsed url   href: 'chalk@~0.4.0' }
+466 silly gunzTarPerm extractEntry lib/customappr.js
+467 silly gunzTarPerm extractEntry lib/gruntifier.js
+468 verbose cache add name="svgo" spec="~0.4.1" args=["svgo","~0.4.1"]
+469 verbose parsed url { protocol: null,
+469 verbose parsed url   slashes: null,
+469 verbose parsed url   auth: null,
+469 verbose parsed url   host: null,
+469 verbose parsed url   port: null,
+469 verbose parsed url   hostname: null,
+469 verbose parsed url   hash: null,
+469 verbose parsed url   search: null,
+469 verbose parsed url   query: null,
+469 verbose parsed url   pathname: '~0.4.1',
+469 verbose parsed url   path: '~0.4.1',
+469 verbose parsed url   href: '~0.4.1' }
+470 verbose addNamed [ 'svgo', '~0.4.1' ]
+471 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
+472 silly lockFile cbda0d14-svgo-0-4-1 svgo@~0.4.1
+473 verbose lock svgo@~0.4.1 /Users/InRhythm041/.npm/cbda0d14-svgo-0-4-1.lock
+474 verbose cache add name="chalk" spec="~0.4.0" args=["chalk","~0.4.0"]
+475 verbose parsed url { protocol: null,
+475 verbose parsed url   slashes: null,
+475 verbose parsed url   auth: null,
+475 verbose parsed url   host: null,
+475 verbose parsed url   port: null,
+475 verbose parsed url   hostname: null,
+475 verbose parsed url   hash: null,
+475 verbose parsed url   search: null,
+475 verbose parsed url   query: null,
+475 verbose parsed url   pathname: '~0.4.0',
+475 verbose parsed url   path: '~0.4.0',
+475 verbose parsed url   href: '~0.4.0' }
+476 verbose addNamed [ 'chalk', '~0.4.0' ]
+477 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+478 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+479 verbose lock chalk@~0.4.0 /Users/InRhythm041/.npm/bc9fb696-chalk-0-4-0.lock
+480 verbose cache add [ 'each-async@~0.1.2', null ]
+481 verbose cache add name=undefined spec="each-async@~0.1.2" args=["each-async@~0.1.2",null]
+482 verbose parsed url { protocol: null,
+482 verbose parsed url   slashes: null,
+482 verbose parsed url   auth: null,
+482 verbose parsed url   host: null,
+482 verbose parsed url   port: null,
+482 verbose parsed url   hostname: null,
+482 verbose parsed url   hash: null,
+482 verbose parsed url   search: null,
+482 verbose parsed url   query: null,
+482 verbose parsed url   pathname: 'each-async@~0.1.2',
+482 verbose parsed url   path: 'each-async@~0.1.2',
+482 verbose parsed url   href: 'each-async@~0.1.2' }
+483 silly addNameRange { name: 'pretty-bytes',
+483 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+483 silly addNameRange   hasData: false }
+484 verbose cache add name="each-async" spec="~0.1.2" args=["each-async","~0.1.2"]
+485 verbose parsed url { protocol: null,
+485 verbose parsed url   slashes: null,
+485 verbose parsed url   auth: null,
+485 verbose parsed url   host: null,
+485 verbose parsed url   port: null,
+485 verbose parsed url   hostname: null,
+485 verbose parsed url   hash: null,
+485 verbose parsed url   search: null,
+485 verbose parsed url   query: null,
+485 verbose parsed url   pathname: '~0.1.2',
+485 verbose parsed url   path: '~0.1.2',
+485 verbose parsed url   href: '~0.1.2' }
+486 verbose addNamed [ 'each-async', '~0.1.2' ]
+487 verbose addNamed [ null, '>=0.1.2-0 <0.2.0-0' ]
+488 silly lockFile e9f1520f-each-async-0-1-2 each-async@~0.1.2
+489 verbose lock each-async@~0.1.2 /Users/InRhythm041/.npm/e9f1520f-each-async-0-1-2.lock
+490 info preinstall grunt-contrib-htmlmin@0.3.0
+491 silly addNameRange { name: 'svgo', range: '>=0.4.1-0 <0.5.0-0', hasData: false }
+492 silly addNameRange { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+493 silly addNameRange { name: 'each-async',
+493 silly addNameRange   range: '>=0.1.2-0 <0.2.0-0',
+493 silly addNameRange   hasData: false }
+494 silly lockFile dcad79ff-e-modules-grunt-contrib-imagemin tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-imagemin
+495 silly lockFile dcad79ff-e-modules-grunt-contrib-imagemin tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-imagemin
+496 silly lockFile 56267fcc-ntrib-imagemin-0-8-1-package-tgz tar:///Users/InRhythm041/.npm/grunt-contrib-imagemin/0.8.1/package.tgz
+497 silly lockFile 56267fcc-ntrib-imagemin-0-8-1-package-tgz tar:///Users/InRhythm041/.npm/grunt-contrib-imagemin/0.8.1/package.tgz
+498 verbose readDependencies using package.json deps
+499 verbose readDependencies using package.json deps
+500 verbose request where is /pretty-bytes
+501 verbose request registry https://registry.npmjs.org/
+502 verbose url raw /pretty-bytes
+503 verbose url resolving [ 'https://registry.npmjs.org/', './pretty-bytes' ]
+504 verbose url resolved https://registry.npmjs.org/pretty-bytes
+505 verbose request where is https://registry.npmjs.org/pretty-bytes
+506 info trying registry request attempt 1 at 13:32:16
+507 verbose etag "E1FTH3JHYWT32EUGQTA4F38C9"
+508 http GET https://registry.npmjs.org/pretty-bytes
+509 verbose request where is /svgo
+510 verbose request registry https://registry.npmjs.org/
+511 verbose url raw /svgo
+512 verbose url resolving [ 'https://registry.npmjs.org/', './svgo' ]
+513 verbose url resolved https://registry.npmjs.org/svgo
+514 verbose request where is https://registry.npmjs.org/svgo
+515 info trying registry request attempt 1 at 13:32:16
+516 verbose etag "CYUP23CZCZH9SZKUI417EPYI8"
+517 http GET https://registry.npmjs.org/svgo
+518 verbose request where is /chalk
+519 verbose request registry https://registry.npmjs.org/
+520 verbose url raw /chalk
+521 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+522 verbose url resolved https://registry.npmjs.org/chalk
+523 verbose request where is https://registry.npmjs.org/chalk
+524 info trying registry request attempt 1 at 13:32:16
+525 verbose etag "C62L4FYN6927D6RKV47Y5PPA8"
+526 http GET https://registry.npmjs.org/chalk
+527 silly gunzTarPerm extractEntry tasks/cssmin.js
+528 verbose cache add [ 'chalk@~0.4.0', null ]
+529 verbose cache add name=undefined spec="chalk@~0.4.0" args=["chalk@~0.4.0",null]
+530 verbose parsed url { protocol: null,
+530 verbose parsed url   slashes: null,
+530 verbose parsed url   auth: null,
+530 verbose parsed url   host: null,
+530 verbose parsed url   port: null,
+530 verbose parsed url   hostname: null,
+530 verbose parsed url   hash: null,
+530 verbose parsed url   search: null,
+530 verbose parsed url   query: null,
+530 verbose parsed url   pathname: 'chalk@~0.4.0',
+530 verbose parsed url   path: 'chalk@~0.4.0',
+530 verbose parsed url   href: 'chalk@~0.4.0' }
+531 verbose cache add [ 'html-minifier@~0.6.0', null ]
+532 verbose cache add name=undefined spec="html-minifier@~0.6.0" args=["html-minifier@~0.6.0",null]
+533 verbose parsed url { protocol: null,
+533 verbose parsed url   slashes: null,
+533 verbose parsed url   auth: null,
+533 verbose parsed url   host: null,
+533 verbose parsed url   port: null,
+533 verbose parsed url   hostname: null,
+533 verbose parsed url   hash: null,
+533 verbose parsed url   search: null,
+533 verbose parsed url   query: null,
+533 verbose parsed url   pathname: 'html-minifier@~0.6.0',
+533 verbose parsed url   path: 'html-minifier@~0.6.0',
+533 verbose parsed url   href: 'html-minifier@~0.6.0' }
+534 verbose cache add [ 'pretty-bytes@~0.1.0', null ]
+535 verbose cache add name=undefined spec="pretty-bytes@~0.1.0" args=["pretty-bytes@~0.1.0",null]
+536 verbose parsed url { protocol: null,
+536 verbose parsed url   slashes: null,
+536 verbose parsed url   auth: null,
+536 verbose parsed url   host: null,
+536 verbose parsed url   port: null,
+536 verbose parsed url   hostname: null,
+536 verbose parsed url   hash: null,
+536 verbose parsed url   search: null,
+536 verbose parsed url   query: null,
+536 verbose parsed url   pathname: 'pretty-bytes@~0.1.0',
+536 verbose parsed url   path: 'pretty-bytes@~0.1.0',
+536 verbose parsed url   href: 'pretty-bytes@~0.1.0' }
+537 verbose request where is /each-async
+538 verbose request registry https://registry.npmjs.org/
+539 verbose url raw /each-async
+540 verbose url resolving [ 'https://registry.npmjs.org/', './each-async' ]
+541 verbose url resolved https://registry.npmjs.org/each-async
+542 verbose request where is https://registry.npmjs.org/each-async
+543 info trying registry request attempt 1 at 13:32:16
+544 verbose etag "5HXF2FGEHRFWIZ9FXKJN58TFC"
+545 http GET https://registry.npmjs.org/each-async
+546 verbose cache add name="chalk" spec="~0.4.0" args=["chalk","~0.4.0"]
+547 verbose parsed url { protocol: null,
+547 verbose parsed url   slashes: null,
+547 verbose parsed url   auth: null,
+547 verbose parsed url   host: null,
+547 verbose parsed url   port: null,
+547 verbose parsed url   hostname: null,
+547 verbose parsed url   hash: null,
+547 verbose parsed url   search: null,
+547 verbose parsed url   query: null,
+547 verbose parsed url   pathname: '~0.4.0',
+547 verbose parsed url   path: '~0.4.0',
+547 verbose parsed url   href: '~0.4.0' }
+548 verbose addNamed [ 'chalk', '~0.4.0' ]
+549 verbose cache add name="html-minifier" spec="~0.6.0" args=["html-minifier","~0.6.0"]
+550 verbose parsed url { protocol: null,
+550 verbose parsed url   slashes: null,
+550 verbose parsed url   auth: null,
+550 verbose parsed url   host: null,
+550 verbose parsed url   port: null,
+550 verbose parsed url   hostname: null,
+550 verbose parsed url   hash: null,
+550 verbose parsed url   search: null,
+550 verbose parsed url   query: null,
+550 verbose parsed url   pathname: '~0.6.0',
+550 verbose parsed url   path: '~0.6.0',
+550 verbose parsed url   href: '~0.6.0' }
+551 verbose addNamed [ 'html-minifier', '~0.6.0' ]
+552 verbose addNamed [ null, '>=0.6.0-0 <0.7.0-0' ]
+553 silly lockFile 97f4aae5-html-minifier-0-6-0 html-minifier@~0.6.0
+554 verbose lock html-minifier@~0.6.0 /Users/InRhythm041/.npm/97f4aae5-html-minifier-0-6-0.lock
+555 verbose cache add name="pretty-bytes" spec="~0.1.0" args=["pretty-bytes","~0.1.0"]
+556 verbose parsed url { protocol: null,
+556 verbose parsed url   slashes: null,
+556 verbose parsed url   auth: null,
+556 verbose parsed url   host: null,
+556 verbose parsed url   port: null,
+556 verbose parsed url   hostname: null,
+556 verbose parsed url   hash: null,
+556 verbose parsed url   search: null,
+556 verbose parsed url   query: null,
+556 verbose parsed url   pathname: '~0.1.0',
+556 verbose parsed url   path: '~0.1.0',
+556 verbose parsed url   href: '~0.1.0' }
+557 verbose addNamed [ 'pretty-bytes', '~0.1.0' ]
+558 info preinstall grunt-contrib-imagemin@0.8.1
+559 silly addNameRange { name: 'html-minifier',
+559 silly addNameRange   range: '>=0.6.0-0 <0.7.0-0',
+559 silly addNameRange   hasData: false }
+560 verbose readDependencies using package.json deps
+561 silly lockFile e095638a-kahna-node-modules-grunt-wiredep tar:///Users/InRhythm041/karkahna/node_modules/grunt-wiredep
+562 silly lockFile e095638a-kahna-node-modules-grunt-wiredep tar:///Users/InRhythm041/karkahna/node_modules/grunt-wiredep
+563 verbose readDependencies using package.json deps
+564 silly lockFile 9be9ef16--grunt-wiredep-1-8-0-package-tgz tar:///Users/InRhythm041/.npm/grunt-wiredep/1.8.0/package.tgz
+565 silly lockFile 9be9ef16--grunt-wiredep-1-8-0-package-tgz tar:///Users/InRhythm041/.npm/grunt-wiredep/1.8.0/package.tgz
+566 verbose cache add [ 'async@^0.9.0', null ]
+567 verbose cache add name=undefined spec="async@^0.9.0" args=["async@^0.9.0",null]
+568 verbose parsed url { protocol: null,
+568 verbose parsed url   slashes: null,
+568 verbose parsed url   auth: null,
+568 verbose parsed url   host: null,
+568 verbose parsed url   port: null,
+568 verbose parsed url   hostname: null,
+568 verbose parsed url   hash: null,
+568 verbose parsed url   search: null,
+568 verbose parsed url   query: null,
+568 verbose parsed url   pathname: 'async@^0.9.0',
+568 verbose parsed url   path: 'async@^0.9.0',
+568 verbose parsed url   href: 'async@^0.9.0' }
+569 verbose cache add [ 'chalk@^0.5.1', null ]
+570 verbose cache add name=undefined spec="chalk@^0.5.1" args=["chalk@^0.5.1",null]
+571 verbose parsed url { protocol: null,
+571 verbose parsed url   slashes: null,
+571 verbose parsed url   auth: null,
+571 verbose parsed url   host: null,
+571 verbose parsed url   port: null,
+571 verbose parsed url   hostname: null,
+571 verbose parsed url   hash: null,
+571 verbose parsed url   search: null,
+571 verbose parsed url   query: null,
+571 verbose parsed url   pathname: 'chalk@^0.5.1',
+571 verbose parsed url   path: 'chalk@^0.5.1',
+571 verbose parsed url   href: 'chalk@^0.5.1' }
+572 verbose cache add name="async" spec="^0.9.0" args=["async","^0.9.0"]
+573 verbose parsed url { protocol: null,
+573 verbose parsed url   slashes: null,
+573 verbose parsed url   auth: null,
+573 verbose parsed url   host: null,
+573 verbose parsed url   port: null,
+573 verbose parsed url   hostname: null,
+573 verbose parsed url   hash: null,
+573 verbose parsed url   search: null,
+573 verbose parsed url   query: null,
+573 verbose parsed url   pathname: '^0.9.0',
+573 verbose parsed url   path: '^0.9.0',
+573 verbose parsed url   href: '^0.9.0' }
+574 verbose addNamed [ 'async', '^0.9.0' ]
+575 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+576 silly lockFile 7f39d2c2-async-0-9-0 async@^0.9.0
+577 verbose lock async@^0.9.0 /Users/InRhythm041/.npm/7f39d2c2-async-0-9-0.lock
+578 verbose cache add [ 'imagemin@^1.0.4', null ]
+579 verbose cache add name=undefined spec="imagemin@^1.0.4" args=["imagemin@^1.0.4",null]
+580 verbose parsed url { protocol: null,
+580 verbose parsed url   slashes: null,
+580 verbose parsed url   auth: null,
+580 verbose parsed url   host: null,
+580 verbose parsed url   port: null,
+580 verbose parsed url   hostname: null,
+580 verbose parsed url   hash: null,
+580 verbose parsed url   search: null,
+580 verbose parsed url   query: null,
+580 verbose parsed url   pathname: 'imagemin@^1.0.4',
+580 verbose parsed url   path: 'imagemin@^1.0.4',
+580 verbose parsed url   href: 'imagemin@^1.0.4' }
+581 verbose cache add [ 'pretty-bytes@^1.0.1', null ]
+582 verbose cache add name=undefined spec="pretty-bytes@^1.0.1" args=["pretty-bytes@^1.0.1",null]
+583 verbose parsed url { protocol: null,
+583 verbose parsed url   slashes: null,
+583 verbose parsed url   auth: null,
+583 verbose parsed url   host: null,
+583 verbose parsed url   port: null,
+583 verbose parsed url   hostname: null,
+583 verbose parsed url   hash: null,
+583 verbose parsed url   search: null,
+583 verbose parsed url   query: null,
+583 verbose parsed url   pathname: 'pretty-bytes@^1.0.1',
+583 verbose parsed url   path: 'pretty-bytes@^1.0.1',
+583 verbose parsed url   href: 'pretty-bytes@^1.0.1' }
+584 verbose cache add name="chalk" spec="^0.5.1" args=["chalk","^0.5.1"]
+585 verbose parsed url { protocol: null,
+585 verbose parsed url   slashes: null,
+585 verbose parsed url   auth: null,
+585 verbose parsed url   host: null,
+585 verbose parsed url   port: null,
+585 verbose parsed url   hostname: null,
+585 verbose parsed url   hash: null,
+585 verbose parsed url   search: null,
+585 verbose parsed url   query: null,
+585 verbose parsed url   pathname: '^0.5.1',
+585 verbose parsed url   path: '^0.5.1',
+585 verbose parsed url   href: '^0.5.1' }
+586 verbose addNamed [ 'chalk', '^0.5.1' ]
+587 verbose addNamed [ null, '>=0.5.1-0 <0.6.0-0' ]
+588 silly lockFile 24b6c7c3-chalk-0-5-1 chalk@^0.5.1
+589 verbose lock chalk@^0.5.1 /Users/InRhythm041/.npm/24b6c7c3-chalk-0-5-1.lock
+590 verbose request where is /html-minifier
+591 verbose request registry https://registry.npmjs.org/
+592 verbose url raw /html-minifier
+593 verbose url resolving [ 'https://registry.npmjs.org/', './html-minifier' ]
+594 verbose url resolved https://registry.npmjs.org/html-minifier
+595 verbose request where is https://registry.npmjs.org/html-minifier
+596 info trying registry request attempt 1 at 13:32:16
+597 verbose etag "DGUEWCOU4TU9ZK0APRMYK9XIQ"
+598 http GET https://registry.npmjs.org/html-minifier
+599 verbose cache add name="imagemin" spec="^1.0.4" args=["imagemin","^1.0.4"]
+600 verbose parsed url { protocol: null,
+600 verbose parsed url   slashes: null,
+600 verbose parsed url   auth: null,
+600 verbose parsed url   host: null,
+600 verbose parsed url   port: null,
+600 verbose parsed url   hostname: null,
+600 verbose parsed url   hash: null,
+600 verbose parsed url   search: null,
+600 verbose parsed url   query: null,
+600 verbose parsed url   pathname: '^1.0.4',
+600 verbose parsed url   path: '^1.0.4',
+600 verbose parsed url   href: '^1.0.4' }
+601 verbose addNamed [ 'imagemin', '^1.0.4' ]
+602 verbose addNamed [ null, '>=1.0.4-0 <2.0.0-0' ]
+603 silly lockFile 8738583c-imagemin-1-0-4 imagemin@^1.0.4
+604 verbose lock imagemin@^1.0.4 /Users/InRhythm041/.npm/8738583c-imagemin-1-0-4.lock
+605 verbose cache add name="pretty-bytes" spec="^1.0.1" args=["pretty-bytes","^1.0.1"]
+606 verbose parsed url { protocol: null,
+606 verbose parsed url   slashes: null,
+606 verbose parsed url   auth: null,
+606 verbose parsed url   host: null,
+606 verbose parsed url   port: null,
+606 verbose parsed url   hostname: null,
+606 verbose parsed url   hash: null,
+606 verbose parsed url   search: null,
+606 verbose parsed url   query: null,
+606 verbose parsed url   pathname: '^1.0.1',
+606 verbose parsed url   path: '^1.0.1',
+606 verbose parsed url   href: '^1.0.1' }
+607 verbose addNamed [ 'pretty-bytes', '^1.0.1' ]
+608 verbose addNamed [ null, '>=1.0.1-0 <2.0.0-0' ]
+609 silly lockFile accf8f6e-pretty-bytes-1-0-1 pretty-bytes@^1.0.1
+610 verbose lock pretty-bytes@^1.0.1 /Users/InRhythm041/.npm/accf8f6e-pretty-bytes-1-0-1.lock
+611 silly addNameRange { name: 'async', range: '>=0.9.0-0 <0.10.0-0', hasData: false }
+612 http 304 https://registry.npmjs.org/pretty-bytes
+613 silly registry.get cb [ 304,
+613 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+613 silly registry.get     server: 'Apache',
+613 silly registry.get     via: '1.1 varnish',
+613 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+613 silly registry.get     'cache-control': 'max-age=60',
+613 silly registry.get     etag: '"E1FTH3JHYWT32EUGQTA4F38C9"',
+613 silly registry.get     'x-served-by': 'cache-jfk1027-JFK',
+613 silly registry.get     'x-cache': 'HIT',
+613 silly registry.get     'x-cache-hits': '1',
+613 silly registry.get     'x-timer': 'S1410024732.692297,VS0,VE0',
+613 silly registry.get     vary: 'Accept',
+613 silly registry.get     'content-length': '0',
+613 silly registry.get     'keep-alive': 'timeout=10, max=50',
+613 silly registry.get     connection: 'Keep-Alive' } ]
+614 verbose etag https://registry.npmjs.org/pretty-bytes from cache
+615 silly addNameRange { name: 'chalk', range: '>=0.5.1-0 <0.6.0-0', hasData: false }
+616 info preinstall grunt-wiredep@1.8.0
+617 silly addNameRange { name: 'imagemin', range: '>=1.0.4-0 <2.0.0-0', hasData: false }
+618 silly addNameRange { name: 'pretty-bytes',
+618 silly addNameRange   range: '>=1.0.1-0 <2.0.0-0',
+618 silly addNameRange   hasData: false }
+619 http 304 https://registry.npmjs.org/svgo
+620 silly registry.get cb [ 304,
+620 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+620 silly registry.get     server: 'Apache',
+620 silly registry.get     via: '1.1 varnish',
+620 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:31:21 GMT',
+620 silly registry.get     'cache-control': 'max-age=60',
+620 silly registry.get     etag: '"CYUP23CZCZH9SZKUI417EPYI8"',
+620 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+620 silly registry.get     'x-cache': 'HIT',
+620 silly registry.get     'x-cache-hits': '2',
+620 silly registry.get     'x-timer': 'S1410024732.696906,VS0,VE0',
+620 silly registry.get     vary: 'Accept',
+620 silly registry.get     'content-length': '0',
+620 silly registry.get     'keep-alive': 'timeout=10, max=50',
+620 silly registry.get     connection: 'Keep-Alive' } ]
+621 verbose etag https://registry.npmjs.org/svgo from cache
+622 verbose readDependencies using package.json deps
+623 http 304 https://registry.npmjs.org/each-async
+624 silly registry.get cb [ 304,
+624 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+624 silly registry.get     server: 'Apache',
+624 silly registry.get     via: '1.1 varnish',
+624 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+624 silly registry.get     'cache-control': 'max-age=60',
+624 silly registry.get     etag: '"5HXF2FGEHRFWIZ9FXKJN58TFC"',
+624 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+624 silly registry.get     'x-cache': 'HIT',
+624 silly registry.get     'x-cache-hits': '1',
+624 silly registry.get     'x-timer': 'S1410024732.704263,VS0,VE0',
+624 silly registry.get     vary: 'Accept',
+624 silly registry.get     'content-length': '0',
+624 silly registry.get     'keep-alive': 'timeout=10, max=50',
+624 silly registry.get     connection: 'Keep-Alive' } ]
+625 verbose etag https://registry.npmjs.org/each-async from cache
+626 verbose readDependencies using package.json deps
+627 verbose request where is /async
+628 verbose request registry https://registry.npmjs.org/
+629 verbose url raw /async
+630 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+631 verbose url resolved https://registry.npmjs.org/async
+632 verbose request where is https://registry.npmjs.org/async
+633 info trying registry request attempt 1 at 13:32:16
+634 verbose etag "2O6YCKCMEGWOUMQPHAPVTZJN8"
+635 http GET https://registry.npmjs.org/async
+636 verbose request where is /chalk
+637 verbose request registry https://registry.npmjs.org/
+638 verbose url raw /chalk
+639 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+640 verbose url resolved https://registry.npmjs.org/chalk
+641 verbose request where is https://registry.npmjs.org/chalk
+642 info trying registry request attempt 1 at 13:32:16
+643 verbose etag "C62L4FYN6927D6RKV47Y5PPA8"
+644 http GET https://registry.npmjs.org/chalk
+645 verbose request where is /imagemin
+646 verbose request registry https://registry.npmjs.org/
+647 verbose url raw /imagemin
+648 verbose url resolving [ 'https://registry.npmjs.org/', './imagemin' ]
+649 verbose url resolved https://registry.npmjs.org/imagemin
+650 verbose request where is https://registry.npmjs.org/imagemin
+651 info trying registry request attempt 1 at 13:32:16
+652 verbose etag "286YFYSZNDH8JC7WATDB8UDKP"
+653 http GET https://registry.npmjs.org/imagemin
+654 verbose cache add [ 'wiredep@^1.5.0', null ]
+655 verbose cache add name=undefined spec="wiredep@^1.5.0" args=["wiredep@^1.5.0",null]
+656 verbose parsed url { protocol: null,
+656 verbose parsed url   slashes: null,
+656 verbose parsed url   auth: null,
+656 verbose parsed url   host: null,
+656 verbose parsed url   port: null,
+656 verbose parsed url   hostname: null,
+656 verbose parsed url   hash: null,
+656 verbose parsed url   search: null,
+656 verbose parsed url   query: null,
+656 verbose parsed url   pathname: 'wiredep@^1.5.0',
+656 verbose parsed url   path: 'wiredep@^1.5.0',
+656 verbose parsed url   href: 'wiredep@^1.5.0' }
+657 verbose request where is /pretty-bytes
+658 verbose request registry https://registry.npmjs.org/
+659 verbose url raw /pretty-bytes
+660 verbose url resolving [ 'https://registry.npmjs.org/', './pretty-bytes' ]
+661 verbose url resolved https://registry.npmjs.org/pretty-bytes
+662 verbose request where is https://registry.npmjs.org/pretty-bytes
+663 info trying registry request attempt 1 at 13:32:16
+664 verbose etag "E1FTH3JHYWT32EUGQTA4F38C9"
+665 http GET https://registry.npmjs.org/pretty-bytes
+666 silly addNameRange number 2 { name: 'pretty-bytes',
+666 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+666 silly addNameRange   hasData: true }
+667 silly addNameRange versions [ 'pretty-bytes',
+667 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '1.0.0', '1.0.1' ] ]
+668 verbose addNamed [ 'pretty-bytes', '0.1.2' ]
+669 verbose addNamed [ '0.1.2', '0.1.2' ]
+670 silly lockFile 22ca07fa-pretty-bytes-0-1-2 pretty-bytes@0.1.2
+671 verbose lock pretty-bytes@0.1.2 /Users/InRhythm041/.npm/22ca07fa-pretty-bytes-0-1-2.lock
+672 verbose cache add name="wiredep" spec="^1.5.0" args=["wiredep","^1.5.0"]
+673 verbose parsed url { protocol: null,
+673 verbose parsed url   slashes: null,
+673 verbose parsed url   auth: null,
+673 verbose parsed url   host: null,
+673 verbose parsed url   port: null,
+673 verbose parsed url   hostname: null,
+673 verbose parsed url   hash: null,
+673 verbose parsed url   search: null,
+673 verbose parsed url   query: null,
+673 verbose parsed url   pathname: '^1.5.0',
+673 verbose parsed url   path: '^1.5.0',
+673 verbose parsed url   href: '^1.5.0' }
+674 verbose addNamed [ 'wiredep', '^1.5.0' ]
+675 verbose addNamed [ null, '>=1.5.0-0 <2.0.0-0' ]
+676 silly lockFile d343cdf5-wiredep-1-5-0 wiredep@^1.5.0
+677 verbose lock wiredep@^1.5.0 /Users/InRhythm041/.npm/d343cdf5-wiredep-1-5-0.lock
+678 silly addNameRange number 2 { name: 'svgo', range: '>=0.4.1-0 <0.5.0-0', hasData: true }
+679 silly addNameRange versions [ 'svgo',
+679 silly addNameRange   [ '0.0.1',
+679 silly addNameRange     '0.0.1-2',
+679 silly addNameRange     '0.0.1-3',
+679 silly addNameRange     '0.0.2',
+679 silly addNameRange     '0.0.3',
+679 silly addNameRange     '0.0.4',
+679 silly addNameRange     '0.0.5',
+679 silly addNameRange     '0.0.5-1',
+679 silly addNameRange     '0.0.6',
+679 silly addNameRange     '0.0.7',
+679 silly addNameRange     '0.0.7-1',
+679 silly addNameRange     '0.0.8',
+679 silly addNameRange     '0.0.9',
+679 silly addNameRange     '0.0.9-1',
+679 silly addNameRange     '0.1.0',
+679 silly addNameRange     '0.1.1',
+679 silly addNameRange     '0.1.2',
+679 silly addNameRange     '0.1.3',
+679 silly addNameRange     '0.1.4',
+679 silly addNameRange     '0.1.5',
+679 silly addNameRange     '0.1.6',
+679 silly addNameRange     '0.1.7',
+679 silly addNameRange     '0.1.8',
+679 silly addNameRange     '0.1.9',
+679 silly addNameRange     '0.1.9-1',
+679 silly addNameRange     '0.2.0',
+679 silly addNameRange     '0.2.1',
+679 silly addNameRange     '0.2.2',
+679 silly addNameRange     '0.2.3',
+679 silly addNameRange     '0.2.4',
+679 silly addNameRange     '0.3.0',
+679 silly addNameRange     '0.3.1',
+679 silly addNameRange     '0.3.2',
+679 silly addNameRange     '0.3.3',
+679 silly addNameRange     '0.3.4',
+679 silly addNameRange     '0.3.5',
+679 silly addNameRange     '0.3.6',
+679 silly addNameRange     '0.3.7',
+679 silly addNameRange     '0.4.0',
+679 silly addNameRange     '0.4.1',
+679 silly addNameRange     '0.4.2',
+679 silly addNameRange     '0.4.3',
+679 silly addNameRange     '0.4.4',
+679 silly addNameRange     '0.4.5' ] ]
+680 verbose addNamed [ 'svgo', '0.4.5' ]
+681 verbose addNamed [ '0.4.5', '0.4.5' ]
+682 silly lockFile 3836de3b-svgo-0-4-5 svgo@0.4.5
+683 verbose lock svgo@0.4.5 /Users/InRhythm041/.npm/3836de3b-svgo-0-4-5.lock
+684 http 304 https://registry.npmjs.org/html-minifier
+685 silly registry.get cb [ 304,
+685 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+685 silly registry.get     server: 'Apache',
+685 silly registry.get     via: '1.1 varnish',
+685 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+685 silly registry.get     'cache-control': 'max-age=60',
+685 silly registry.get     etag: '"DGUEWCOU4TU9ZK0APRMYK9XIQ"',
+685 silly registry.get     'x-served-by': 'cache-jfk1029-JFK',
+685 silly registry.get     'x-cache': 'HIT',
+685 silly registry.get     'x-cache-hits': '1',
+685 silly registry.get     'x-timer': 'S1410024732.749081,VS0,VE0',
+685 silly registry.get     vary: 'Accept',
+685 silly registry.get     'content-length': '0',
+685 silly registry.get     'keep-alive': 'timeout=10, max=50',
+685 silly registry.get     connection: 'Keep-Alive' } ]
+686 verbose etag https://registry.npmjs.org/html-minifier from cache
+687 silly addNameRange { name: 'wiredep', range: '>=1.5.0-0 <2.0.0-0', hasData: false }
+688 http 304 https://registry.npmjs.org/pretty-bytes
+689 silly registry.get cb [ 304,
+689 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+689 silly registry.get     server: 'Apache',
+689 silly registry.get     via: '1.1 varnish',
+689 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+689 silly registry.get     'cache-control': 'max-age=60',
+689 silly registry.get     etag: '"E1FTH3JHYWT32EUGQTA4F38C9"',
+689 silly registry.get     'x-served-by': 'cache-jfk1029-JFK',
+689 silly registry.get     'x-cache': 'HIT',
+689 silly registry.get     'x-cache-hits': '1',
+689 silly registry.get     'x-timer': 'S1410024732.763784,VS0,VE0',
+689 silly registry.get     vary: 'Accept',
+689 silly registry.get     'content-length': '0',
+689 silly registry.get     'keep-alive': 'timeout=10, max=49',
+689 silly registry.get     connection: 'Keep-Alive' } ]
+690 verbose etag https://registry.npmjs.org/pretty-bytes from cache
+691 silly addNameRange number 2 { name: 'each-async',
+691 silly addNameRange   range: '>=0.1.2-0 <0.2.0-0',
+691 silly addNameRange   hasData: true }
+692 silly addNameRange versions [ 'each-async',
+692 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '1.0.0' ] ]
+693 verbose addNamed [ 'each-async', '0.1.3' ]
+694 verbose addNamed [ '0.1.3', '0.1.3' ]
+695 silly lockFile b71a3e6d-each-async-0-1-3 each-async@0.1.3
+696 verbose lock each-async@0.1.3 /Users/InRhythm041/.npm/b71a3e6d-each-async-0-1-3.lock
+697 http 304 https://registry.npmjs.org/async
+698 silly registry.get cb [ 304,
+698 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+698 silly registry.get     server: 'Apache',
+698 silly registry.get     via: '1.1 varnish',
+698 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:10 GMT',
+698 silly registry.get     'cache-control': 'max-age=60',
+698 silly registry.get     etag: '"2O6YCKCMEGWOUMQPHAPVTZJN8"',
+698 silly registry.get     'x-served-by': 'cache-jfk1021-JFK',
+698 silly registry.get     'x-cache': 'HIT',
+698 silly registry.get     'x-cache-hits': '2',
+698 silly registry.get     'x-timer': 'S1410024732.784196,VS0,VE0',
+698 silly registry.get     vary: 'Accept',
+698 silly registry.get     'content-length': '0',
+698 silly registry.get     'keep-alive': 'timeout=10, max=50',
+698 silly registry.get     connection: 'Keep-Alive' } ]
+699 verbose etag https://registry.npmjs.org/async from cache
+700 verbose request where is /wiredep
+701 verbose request registry https://registry.npmjs.org/
+702 verbose url raw /wiredep
+703 verbose url resolving [ 'https://registry.npmjs.org/', './wiredep' ]
+704 verbose url resolved https://registry.npmjs.org/wiredep
+705 verbose request where is https://registry.npmjs.org/wiredep
+706 info trying registry request attempt 1 at 13:32:16
+707 verbose etag "BCWH542PCKI6KQFLUNYQ3G4HH"
+708 http GET https://registry.npmjs.org/wiredep
+709 silly lockFile 22ca07fa-pretty-bytes-0-1-2 pretty-bytes@0.1.2
+710 silly lockFile 22ca07fa-pretty-bytes-0-1-2 pretty-bytes@0.1.2
+711 silly addNameRange number 2 { name: 'html-minifier',
+711 silly addNameRange   range: '>=0.6.0-0 <0.7.0-0',
+711 silly addNameRange   hasData: true }
+712 silly addNameRange versions [ 'html-minifier',
+712 silly addNameRange   [ '0.4.3',
+712 silly addNameRange     '0.4.4',
+712 silly addNameRange     '0.4.5',
+712 silly addNameRange     '0.5.0',
+712 silly addNameRange     '0.5.1',
+712 silly addNameRange     '0.5.2',
+712 silly addNameRange     '0.5.4',
+712 silly addNameRange     '0.5.5',
+712 silly addNameRange     '0.5.6',
+712 silly addNameRange     '0.6.0',
+712 silly addNameRange     '0.6.1',
+712 silly addNameRange     '0.6.2',
+712 silly addNameRange     '0.6.3',
+712 silly addNameRange     '0.6.4',
+712 silly addNameRange     '0.6.5',
+712 silly addNameRange     '0.6.6',
+712 silly addNameRange     '0.6.7',
+712 silly addNameRange     '0.6.8' ] ]
+713 verbose addNamed [ 'html-minifier', '0.6.8' ]
+714 verbose addNamed [ '0.6.8', '0.6.8' ]
+715 silly lockFile 437fd253-html-minifier-0-6-8 html-minifier@0.6.8
+716 verbose lock html-minifier@0.6.8 /Users/InRhythm041/.npm/437fd253-html-minifier-0-6-8.lock
+717 http 304 https://registry.npmjs.org/chalk
+718 silly registry.get cb [ 304,
+718 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+718 silly registry.get     server: 'Apache',
+718 silly registry.get     via: '1.1 varnish',
+718 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+718 silly registry.get     'cache-control': 'max-age=60',
+718 silly registry.get     etag: '"C62L4FYN6927D6RKV47Y5PPA8"',
+718 silly registry.get     'x-served-by': 'cache-jfk1029-JFK',
+718 silly registry.get     'x-cache': 'HIT',
+718 silly registry.get     'x-cache-hits': '1',
+718 silly registry.get     'x-timer': 'S1410024732.701296,VS0,VE84',
+718 silly registry.get     vary: 'Accept',
+718 silly registry.get     'content-length': '0',
+718 silly registry.get     'keep-alive': 'timeout=10, max=50',
+718 silly registry.get     connection: 'Keep-Alive' } ]
+719 verbose etag https://registry.npmjs.org/chalk from cache
+720 http 304 https://registry.npmjs.org/chalk
+721 silly registry.get cb [ 304,
+721 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+721 silly registry.get     server: 'Apache',
+721 silly registry.get     via: '1.1 varnish',
+721 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+721 silly registry.get     'cache-control': 'max-age=60',
+721 silly registry.get     etag: '"C62L4FYN6927D6RKV47Y5PPA8"',
+721 silly registry.get     'x-served-by': 'cache-jfk1029-JFK',
+721 silly registry.get     'x-cache': 'HIT',
+721 silly registry.get     'x-cache-hits': '2',
+721 silly registry.get     'x-timer': 'S1410024732.787624,VS0,VE0',
+721 silly registry.get     vary: 'Accept',
+721 silly registry.get     'content-length': '0',
+721 silly registry.get     'keep-alive': 'timeout=10, max=50',
+721 silly registry.get     connection: 'Keep-Alive' } ]
+722 verbose etag https://registry.npmjs.org/chalk from cache
+723 silly lockFile 0b168859-pretty-bytes-0-1-0 pretty-bytes@~0.1.0
+724 silly lockFile 0b168859-pretty-bytes-0-1-0 pretty-bytes@~0.1.0
+725 silly lockFile 3836de3b-svgo-0-4-5 svgo@0.4.5
+726 silly lockFile 3836de3b-svgo-0-4-5 svgo@0.4.5
+727 http 304 https://registry.npmjs.org/imagemin
+728 silly registry.get cb [ 304,
+728 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+728 silly registry.get     server: 'Apache',
+728 silly registry.get     via: '1.1 varnish',
+728 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+728 silly registry.get     'cache-control': 'max-age=60',
+728 silly registry.get     etag: '"286YFYSZNDH8JC7WATDB8UDKP"',
+728 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+728 silly registry.get     'x-cache': 'HIT',
+728 silly registry.get     'x-cache-hits': '1',
+728 silly registry.get     'x-timer': 'S1410024732.792474,VS0,VE0',
+728 silly registry.get     vary: 'Accept',
+728 silly registry.get     'content-length': '0',
+728 silly registry.get     'keep-alive': 'timeout=10, max=50',
+728 silly registry.get     connection: 'Keep-Alive' } ]
+729 verbose etag https://registry.npmjs.org/imagemin from cache
+730 silly lockFile cbda0d14-svgo-0-4-1 svgo@~0.4.1
+731 silly lockFile cbda0d14-svgo-0-4-1 svgo@~0.4.1
+732 silly addNameRange number 2 { name: 'pretty-bytes',
+732 silly addNameRange   range: '>=1.0.1-0 <2.0.0-0',
+732 silly addNameRange   hasData: true }
+733 silly addNameRange versions [ 'pretty-bytes',
+733 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '1.0.0', '1.0.1' ] ]
+734 verbose addNamed [ 'pretty-bytes', '1.0.1' ]
+735 verbose addNamed [ '1.0.1', '1.0.1' ]
+736 silly lockFile c48f554e-pretty-bytes-1-0-1 pretty-bytes@1.0.1
+737 verbose lock pretty-bytes@1.0.1 /Users/InRhythm041/.npm/c48f554e-pretty-bytes-1-0-1.lock
+738 silly lockFile b71a3e6d-each-async-0-1-3 each-async@0.1.3
+739 silly lockFile b71a3e6d-each-async-0-1-3 each-async@0.1.3
+740 silly lockFile e9f1520f-each-async-0-1-2 each-async@~0.1.2
+741 silly lockFile e9f1520f-each-async-0-1-2 each-async@~0.1.2
+742 silly lockFile 47a3399a-tty-bytes-pretty-bytes-1-0-1-tgz https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-1.0.1.tgz
+743 verbose lock https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-1.0.1.tgz /Users/InRhythm041/.npm/47a3399a-tty-bytes-pretty-bytes-1-0-1-tgz.lock
+744 silly addNameRange number 2 { name: 'async', range: '>=0.9.0-0 <0.10.0-0', hasData: true }
+745 silly addNameRange versions [ 'async',
+745 silly addNameRange   [ '0.1.0',
+745 silly addNameRange     '0.1.1',
+745 silly addNameRange     '0.1.2',
+745 silly addNameRange     '0.1.3',
+745 silly addNameRange     '0.1.4',
+745 silly addNameRange     '0.1.5',
+745 silly addNameRange     '0.1.6',
+745 silly addNameRange     '0.1.7',
+745 silly addNameRange     '0.1.8',
+745 silly addNameRange     '0.1.9',
+745 silly addNameRange     '0.1.10',
+745 silly addNameRange     '0.1.11',
+745 silly addNameRange     '0.1.12',
+745 silly addNameRange     '0.1.13',
+745 silly addNameRange     '0.1.14',
+745 silly addNameRange     '0.1.15',
+745 silly addNameRange     '0.1.16',
+745 silly addNameRange     '0.1.17',
+745 silly addNameRange     '0.1.18',
+745 silly addNameRange     '0.1.19',
+745 silly addNameRange     '0.1.20',
+745 silly addNameRange     '0.1.21',
+745 silly addNameRange     '0.1.22',
+745 silly addNameRange     '0.2.0',
+745 silly addNameRange     '0.2.1',
+745 silly addNameRange     '0.2.2',
+745 silly addNameRange     '0.2.3',
+745 silly addNameRange     '0.2.4',
+745 silly addNameRange     '0.2.5',
+745 silly addNameRange     '0.2.6',
+745 silly addNameRange     '0.2.7',
+745 silly addNameRange     '0.2.8',
+745 silly addNameRange     '0.2.9',
+745 silly addNameRange     '0.2.10',
+745 silly addNameRange     '0.3.0',
+745 silly addNameRange     '0.4.0',
+745 silly addNameRange     '0.4.1',
+745 silly addNameRange     '0.5.0',
+745 silly addNameRange     '0.6.0',
+745 silly addNameRange     '0.6.1',
+745 silly addNameRange     '0.6.2',
+745 silly addNameRange     '0.7.0',
+745 silly addNameRange     '0.8.0',
+745 silly addNameRange     '0.9.0' ] ]
+746 verbose addNamed [ 'async', '0.9.0' ]
+747 verbose addNamed [ '0.9.0', '0.9.0' ]
+748 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+749 verbose lock async@0.9.0 /Users/InRhythm041/.npm/9a58a886-async-0-9-0.lock
+750 silly addNameRange number 2 { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+751 silly addNameRange versions [ 'chalk',
+751 silly addNameRange   [ '0.1.0',
+751 silly addNameRange     '0.1.1',
+751 silly addNameRange     '0.2.0',
+751 silly addNameRange     '0.2.1',
+751 silly addNameRange     '0.3.0',
+751 silly addNameRange     '0.4.0',
+751 silly addNameRange     '0.5.0',
+751 silly addNameRange     '0.5.1' ] ]
+752 verbose addNamed [ 'chalk', '0.4.0' ]
+753 verbose addNamed [ '0.4.0', '0.4.0' ]
+754 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+755 verbose lock chalk@0.4.0 /Users/InRhythm041/.npm/1efe4790-chalk-0-4-0.lock
+756 silly addNameRange number 2 { name: 'chalk', range: '>=0.5.1-0 <0.6.0-0', hasData: true }
+757 silly addNameRange versions [ 'chalk',
+757 silly addNameRange   [ '0.1.0',
+757 silly addNameRange     '0.1.1',
+757 silly addNameRange     '0.2.0',
+757 silly addNameRange     '0.2.1',
+757 silly addNameRange     '0.3.0',
+757 silly addNameRange     '0.4.0',
+757 silly addNameRange     '0.5.0',
+757 silly addNameRange     '0.5.1' ] ]
+758 verbose addNamed [ 'chalk', '0.5.1' ]
+759 verbose addNamed [ '0.5.1', '0.5.1' ]
+760 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+761 verbose lock chalk@0.5.1 /Users/InRhythm041/.npm/c28973bb-chalk-0-5-1.lock
+762 verbose addRemoteTarball [ 'https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-1.0.1.tgz',
+762 verbose addRemoteTarball   'afd0b459da61834ac36617b05f9daa0beb043e3e' ]
+763 silly lockFile 437fd253-html-minifier-0-6-8 html-minifier@0.6.8
+764 silly lockFile 437fd253-html-minifier-0-6-8 html-minifier@0.6.8
+765 silly addNameRange number 2 { name: 'imagemin', range: '>=1.0.4-0 <2.0.0-0', hasData: true }
+766 silly addNameRange versions [ 'imagemin',
+766 silly addNameRange   [ '0.1.0',
+766 silly addNameRange     '0.1.1',
+766 silly addNameRange     '0.1.2',
+766 silly addNameRange     '0.1.3',
+766 silly addNameRange     '0.4.5',
+766 silly addNameRange     '0.4.6',
+766 silly addNameRange     '0.4.7',
+766 silly addNameRange     '0.4.8',
+766 silly addNameRange     '0.4.9',
+766 silly addNameRange     '1.0.0',
+766 silly addNameRange     '1.0.1',
+766 silly addNameRange     '1.0.2',
+766 silly addNameRange     '1.0.3',
+766 silly addNameRange     '1.0.4',
+766 silly addNameRange     '0.2.4',
+766 silly addNameRange     '1.0.5' ] ]
+767 verbose addNamed [ 'imagemin', '1.0.5' ]
+768 verbose addNamed [ '1.0.5', '1.0.5' ]
+769 silly lockFile 612e4ef5-imagemin-1-0-5 imagemin@1.0.5
+770 verbose lock imagemin@1.0.5 /Users/InRhythm041/.npm/612e4ef5-imagemin-1-0-5.lock
+771 silly lockFile 97f4aae5-html-minifier-0-6-0 html-minifier@~0.6.0
+772 silly lockFile 97f4aae5-html-minifier-0-6-0 html-minifier@~0.6.0
+773 http 304 https://registry.npmjs.org/wiredep
+774 silly registry.get cb [ 304,
+774 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+774 silly registry.get     server: 'Apache',
+774 silly registry.get     via: '1.1 varnish',
+774 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:31:21 GMT',
+774 silly registry.get     'cache-control': 'max-age=60',
+774 silly registry.get     etag: '"BCWH542PCKI6KQFLUNYQ3G4HH"',
+774 silly registry.get     'x-served-by': 'cache-jfk1023-JFK',
+774 silly registry.get     'x-cache': 'HIT',
+774 silly registry.get     'x-cache-hits': '2',
+774 silly registry.get     'x-timer': 'S1410024732.845337,VS0,VE0',
+774 silly registry.get     vary: 'Accept',
+774 silly registry.get     'content-length': '0',
+774 silly registry.get     'keep-alive': 'timeout=10, max=50',
+774 silly registry.get     connection: 'Keep-Alive' } ]
+775 verbose etag https://registry.npmjs.org/wiredep from cache
+776 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+777 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+778 info retry fetch attempt 1 at 13:32:16
+779 verbose fetch to= /tmp/npm-86863-syWoWAUS/registry.npmjs.org/pretty-bytes/-/pretty-bytes-1.0.1.tgz
+780 silly lockFile 7f39d2c2-async-0-9-0 async@^0.9.0
+781 silly lockFile 7f39d2c2-async-0-9-0 async@^0.9.0
+782 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+783 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+784 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+785 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+786 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+787 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+788 silly lockFile 24b6c7c3-chalk-0-5-1 chalk@^0.5.1
+789 silly lockFile 24b6c7c3-chalk-0-5-1 chalk@^0.5.1
+790 http GET https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-1.0.1.tgz
+791 silly lockFile 612e4ef5-imagemin-1-0-5 imagemin@1.0.5
+792 silly lockFile 612e4ef5-imagemin-1-0-5 imagemin@1.0.5
+793 silly lockFile 8738583c-imagemin-1-0-4 imagemin@^1.0.4
+794 silly lockFile 8738583c-imagemin-1-0-4 imagemin@^1.0.4
+795 silly addNameRange number 2 { name: 'wiredep', range: '>=1.5.0-0 <2.0.0-0', hasData: true }
+796 silly addNameRange versions [ 'wiredep',
+796 silly addNameRange   [ '0.1.0',
+796 silly addNameRange     '0.1.1',
+796 silly addNameRange     '0.1.2',
+796 silly addNameRange     '0.1.4',
+796 silly addNameRange     '0.1.5',
+796 silly addNameRange     '0.1.6',
+796 silly addNameRange     '0.1.7',
+796 silly addNameRange     '0.1.8',
+796 silly addNameRange     '0.2.0',
+796 silly addNameRange     '0.3.0',
+796 silly addNameRange     '0.3.1',
+796 silly addNameRange     '0.4.0',
+796 silly addNameRange     '0.4.1',
+796 silly addNameRange     '0.4.2',
+796 silly addNameRange     '0.5.0',
+796 silly addNameRange     '0.5.1',
+796 silly addNameRange     '0.5.2',
+796 silly addNameRange     '1.0.0',
+796 silly addNameRange     '1.1.0',
+796 silly addNameRange     '1.1.1',
+796 silly addNameRange     '1.2.0',
+796 silly addNameRange     '1.2.1',
+796 silly addNameRange     '1.2.2',
+796 silly addNameRange     '1.3.0',
+796 silly addNameRange     '1.3.1',
+796 silly addNameRange     '1.3.2',
+796 silly addNameRange     '1.3.3',
+796 silly addNameRange     '1.4.0',
+796 silly addNameRange     '1.4.1',
+796 silly addNameRange     '1.4.2',
+796 silly addNameRange     '1.4.3',
+796 silly addNameRange     '1.4.4',
+796 silly addNameRange     '1.5.0',
+796 silly addNameRange     '1.6.0',
+796 silly addNameRange     '1.6.1',
+796 silly addNameRange     '1.6.2',
+796 silly addNameRange     '1.7.0',
+796 silly addNameRange     '1.7.1',
+796 silly addNameRange     '1.7.2',
+796 silly addNameRange     '1.7.3',
+796 silly addNameRange     '1.8.0',
+796 silly addNameRange     '1.8.1',
+796 silly addNameRange     '1.8.2',
+796 silly addNameRange     '1.8.3',
+796 silly addNameRange     '1.8.4',
+796 silly addNameRange     '1.8.5' ] ]
+797 verbose addNamed [ 'wiredep', '1.8.5' ]
+798 verbose addNamed [ '1.8.5', '1.8.5' ]
+799 silly lockFile c527aacd-wiredep-1-8-5 wiredep@1.8.5
+800 verbose lock wiredep@1.8.5 /Users/InRhythm041/.npm/c527aacd-wiredep-1-8-5.lock
+801 silly lockFile 1774d036-ode-modules-grunt-contrib-cssmin tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-cssmin
+802 silly lockFile 1774d036-ode-modules-grunt-contrib-cssmin tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-cssmin
+803 silly lockFile 8a05c91d-ontrib-cssmin-0-10-0-package-tgz tar:///Users/InRhythm041/.npm/grunt-contrib-cssmin/0.10.0/package.tgz
+804 silly lockFile 8a05c91d-ontrib-cssmin-0-10-0-package-tgz tar:///Users/InRhythm041/.npm/grunt-contrib-cssmin/0.10.0/package.tgz
+805 silly resolved [ { name: 'pretty-bytes',
+805 silly resolved     version: '0.1.2',
+805 silly resolved     description: 'Convert bytes to a human readable string: 1337 → 1.34 kB',
+805 silly resolved     license: 'MIT',
+805 silly resolved     repository:
+805 silly resolved      { type: 'git',
+805 silly resolved        url: 'git://github.com/sindresorhus/pretty-bytes' },
+805 silly resolved     main: 'pretty-bytes.js',
+805 silly resolved     bin: { 'pretty-bytes': 'cli.js' },
+805 silly resolved     author:
+805 silly resolved      { name: 'Sindre Sorhus',
+805 silly resolved        email: 'sindresorhus@gmail.com',
+805 silly resolved        url: 'http://sindresorhus.com' },
+805 silly resolved     engines: { node: '>=0.10.0' },
+805 silly resolved     scripts: { test: 'mocha' },
+805 silly resolved     files: [ 'pretty-bytes.js', 'cli.js' ],
+805 silly resolved     keywords:
+805 silly resolved      [ 'cli',
+805 silly resolved        'bin',
+805 silly resolved        'browser',
+805 silly resolved        'pretty',
+805 silly resolved        'bytes',
+805 silly resolved        'byte',
+805 silly resolved        'filesize',
+805 silly resolved        'size',
+805 silly resolved        'file',
+805 silly resolved        'human',
+805 silly resolved        'humanized',
+805 silly resolved        'readable',
+805 silly resolved        'si',
+805 silly resolved        'data' ],
+805 silly resolved     devDependencies: { mocha: '*' },
+805 silly resolved     bugs: { url: 'https://github.com/sindresorhus/pretty-bytes/issues' },
+805 silly resolved     homepage: 'https://github.com/sindresorhus/pretty-bytes',
+805 silly resolved     _id: 'pretty-bytes@0.1.2',
+805 silly resolved     _shasum: 'cd90294d58a1ca4e8a5d0fb9c8225998881acf00',
+805 silly resolved     _from: 'pretty-bytes@~0.1.0',
+805 silly resolved     _npmVersion: '1.4.9',
+805 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+805 silly resolved     maintainers: [ [Object] ],
+805 silly resolved     dist:
+805 silly resolved      { shasum: 'cd90294d58a1ca4e8a5d0fb9c8225998881acf00',
+805 silly resolved        tarball: 'http://registry.npmjs.org/pretty-bytes/-/pretty-bytes-0.1.2.tgz' },
+805 silly resolved     directories: {},
+805 silly resolved     _resolved: 'https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-0.1.2.tgz',
+805 silly resolved     readme: 'ERROR: No README data found!' },
+805 silly resolved   { name: 'svgo',
+805 silly resolved     version: '0.4.5',
+805 silly resolved     description: 'Nodejs-based tool for optimizing SVG vector graphics files',
+805 silly resolved     keywords: [ 'svgo', 'svg', 'optimize', 'minify' ],
+805 silly resolved     homepage: 'https://github.com/svg/svgo',
+805 silly resolved     bugs:
+805 silly resolved      { url: 'https://github.com/svg/svgo/issues',
+805 silly resolved        email: 'kir@soulshine.in' },
+805 silly resolved     author:
+805 silly resolved      { name: 'Kir Belevich',
+805 silly resolved        email: 'kir@soulshine.in',
+805 silly resolved        url: 'https://github.com/deepsweet' },
+805 silly resolved     contributors: [ [Object], [Object] ],
+805 silly resolved     repository: { type: 'git', url: 'git://github.com/svg/svgo.git' },
+805 silly resolved     main: './lib/svgo.js',
+805 silly resolved     bin: { svgo: './bin/svgo' },
+805 silly resolved     directories: { bin: './bin', lib: './lib', example: './examples' },
+805 silly resolved     scripts: { test: 'make test' },
+805 silly resolved     dependencies:
+805 silly resolved      { sax: '~0.6.0',
+805 silly resolved        coa: '~0.4.0',
+805 silly resolved        'js-yaml': '~2.1.0',
+805 silly resolved        colors: '~0.6.0',
+805 silly resolved        'whet.extend': '~0.9.9' },
+805 silly resolved     devDependencies:
+805 silly resolved      { mocha: '~1.14.0',
+805 silly resolved        should: '~2.1.0',
+805 silly resolved        istanbul: '~0.2.0',
+805 silly resolved        'mocha-istanbul': '~0.2.0',
+805 silly resolved        coveralls: '~2.11.1' },
+805 silly resolved     engines: { node: '>=0.8.0' },
+805 silly resolved     licenses: [ [Object] ],
+805 silly resolved     _id: 'svgo@0.4.5',
+805 silly resolved     dist:
+805 silly resolved      { shasum: 'ba56155fb1733728956c01b405221ee7e789a2a4',
+805 silly resolved        tarball: 'http://registry.npmjs.org/svgo/-/svgo-0.4.5.tgz' },
+805 silly resolved     _from: 'svgo@~0.4.1',
+805 silly resolved     _npmVersion: '1.3.21',
+805 silly resolved     _npmUser: { name: 'greli', email: 'grelimail@gmail.com' },
+805 silly resolved     maintainers: [ [Object], [Object] ],
+805 silly resolved     _shasum: 'ba56155fb1733728956c01b405221ee7e789a2a4',
+805 silly resolved     _resolved: 'https://registry.npmjs.org/svgo/-/svgo-0.4.5.tgz',
+805 silly resolved     readme: 'ERROR: No README data found!' },
+805 silly resolved   { name: 'each-async',
+805 silly resolved     version: '0.1.3',
+805 silly resolved     description: 'Async concurrent iterator',
+805 silly resolved     license: 'MIT',
+805 silly resolved     main: 'each-async.js',
+805 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/each-async' },
+805 silly resolved     author:
+805 silly resolved      { name: 'Sindre Sorhus',
+805 silly resolved        email: 'sindresorhus@gmail.com',
+805 silly resolved        url: 'http://sindresorhus.com' },
+805 silly resolved     engines: { node: '>=0.10.0' },
+805 silly resolved     scripts: { test: 'mocha' },
+805 silly resolved     files: [ 'each-async.js' ],
+805 silly resolved     keywords:
+805 silly resolved      [ 'each',
+805 silly resolved        'async',
+805 silly resolved        'asynchronous',
+805 silly resolved        'iteration',
+805 silly resolved        'iterate',
+805 silly resolved        'loop',
+805 silly resolved        'foreach',
+805 silly resolved        'parallel',
+805 silly resolved        'concurrent',
+805 silly resolved        'array',
+805 silly resolved        'flow',
+805 silly resolved        'control flow' ],
+805 silly resolved     devDependencies: { mocha: '*' },
+805 silly resolved     bugs: { url: 'https://github.com/sindresorhus/each-async/issues' },
+805 silly resolved     homepage: 'https://github.com/sindresorhus/each-async',
+805 silly resolved     _id: 'each-async@0.1.3',
+805 silly resolved     dist:
+805 silly resolved      { shasum: 'b436025b08da2f86608025519e3096763dedfca3',
+805 silly resolved        tarball: 'http://registry.npmjs.org/each-async/-/each-async-0.1.3.tgz' },
+805 silly resolved     _from: 'each-async@~0.1.2',
+805 silly resolved     _npmVersion: '1.4.6',
+805 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+805 silly resolved     maintainers: [ [Object] ],
+805 silly resolved     directories: {},
+805 silly resolved     _shasum: 'b436025b08da2f86608025519e3096763dedfca3',
+805 silly resolved     _resolved: 'https://registry.npmjs.org/each-async/-/each-async-0.1.3.tgz',
+805 silly resolved     readme: 'ERROR: No README data found!' },
+805 silly resolved   { name: 'chalk',
+805 silly resolved     version: '0.4.0',
+805 silly resolved     description: 'Terminal string styling done right. Created because the `colors` module does some really horrible things.',
+805 silly resolved     license: 'MIT',
+805 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/chalk' },
+805 silly resolved     author:
+805 silly resolved      { name: 'Sindre Sorhus',
+805 silly resolved        email: 'sindresorhus@gmail.com',
+805 silly resolved        url: 'http://sindresorhus.com' },
+805 silly resolved     engines: { node: '>=0.8.0' },
+805 silly resolved     scripts: { test: 'mocha' },
+805 silly resolved     files: [ 'index.js' ],
+805 silly resolved     keywords:
+805 silly resolved      [ 'color',
+805 silly resolved        'colour',
+805 silly resolved        'colors',
+805 silly resolved        'terminal',
+805 silly resolved        'console',
+805 silly resolved        'cli',
+805 silly resolved        'string',
+805 silly resolved        'ansi',
+805 silly resolved        'styles',
+805 silly resolved        'tty',
+805 silly resolved        'formatting',
+805 silly resolved        'rgb',
+805 silly resolved        '256',
+805 silly resolved        'shell',
+805 silly resolved        'xterm',
+805 silly resolved        'log',
+805 silly resolved        'logging',
+805 silly resolved        'command-line',
+805 silly resolved        'text' ],
+805 silly resolved     dependencies:
+805 silly resolved      { 'has-color': '~0.1.0',
+805 silly resolved        'ansi-styles': '~1.0.0',
+805 silly resolved        'strip-ansi': '~0.1.0' },
+805 silly resolved     devDependencies: { mocha: '~1.x' },
+805 silly resolved     bugs: { url: 'https://github.com/sindresorhus/chalk/issues' },
+805 silly resolved     homepage: 'https://github.com/sindresorhus/chalk',
+805 silly resolved     _id: 'chalk@0.4.0',
+805 silly resolved     dist:
+805 silly resolved      { shasum: '5199a3ddcd0c1efe23bc08c1b027b06176e0c64f',
+805 silly resolved        tarball: 'http://registry.npmjs.org/chalk/-/chalk-0.4.0.tgz' },
+805 silly resolved     _from: 'chalk@~0.4.0',
+805 silly resolved     _npmVersion: '1.3.17',
+805 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+805 silly resolved     maintainers: [ [Object] ],
+805 silly resolved     directories: {},
+805 silly resolved     _shasum: '5199a3ddcd0c1efe23bc08c1b027b06176e0c64f',
+805 silly resolved     _resolved: 'https://registry.npmjs.org/chalk/-/chalk-0.4.0.tgz',
+805 silly resolved     readme: 'ERROR: No README data found!' } ]
+806 info install pretty-bytes@0.1.2 into /Users/InRhythm041/karkahna/node_modules/grunt-svgmin
+807 info install svgo@0.4.5 into /Users/InRhythm041/karkahna/node_modules/grunt-svgmin
+808 info install each-async@0.1.3 into /Users/InRhythm041/karkahna/node_modules/grunt-svgmin
+809 info install chalk@0.4.0 into /Users/InRhythm041/karkahna/node_modules/grunt-svgmin
+810 info installOne pretty-bytes@0.1.2
+811 info installOne svgo@0.4.5
+812 info installOne each-async@0.1.3
+813 info installOne chalk@0.4.0
+814 silly resolved [ { name: 'pretty-bytes',
+814 silly resolved     version: '0.1.2',
+814 silly resolved     description: 'Convert bytes to a human readable string: 1337 → 1.34 kB',
+814 silly resolved     license: 'MIT',
+814 silly resolved     repository:
+814 silly resolved      { type: 'git',
+814 silly resolved        url: 'git://github.com/sindresorhus/pretty-bytes' },
+814 silly resolved     main: 'pretty-bytes.js',
+814 silly resolved     bin: { 'pretty-bytes': 'cli.js' },
+814 silly resolved     author:
+814 silly resolved      { name: 'Sindre Sorhus',
+814 silly resolved        email: 'sindresorhus@gmail.com',
+814 silly resolved        url: 'http://sindresorhus.com' },
+814 silly resolved     engines: { node: '>=0.10.0' },
+814 silly resolved     scripts: { test: 'mocha' },
+814 silly resolved     files: [ 'pretty-bytes.js', 'cli.js' ],
+814 silly resolved     keywords:
+814 silly resolved      [ 'cli',
+814 silly resolved        'bin',
+814 silly resolved        'browser',
+814 silly resolved        'pretty',
+814 silly resolved        'bytes',
+814 silly resolved        'byte',
+814 silly resolved        'filesize',
+814 silly resolved        'size',
+814 silly resolved        'file',
+814 silly resolved        'human',
+814 silly resolved        'humanized',
+814 silly resolved        'readable',
+814 silly resolved        'si',
+814 silly resolved        'data' ],
+814 silly resolved     devDependencies: { mocha: '*' },
+814 silly resolved     bugs: { url: 'https://github.com/sindresorhus/pretty-bytes/issues' },
+814 silly resolved     homepage: 'https://github.com/sindresorhus/pretty-bytes',
+814 silly resolved     _id: 'pretty-bytes@0.1.2',
+814 silly resolved     _shasum: 'cd90294d58a1ca4e8a5d0fb9c8225998881acf00',
+814 silly resolved     _from: 'pretty-bytes@~0.1.0',
+814 silly resolved     _npmVersion: '1.4.9',
+814 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+814 silly resolved     maintainers: [ [Object] ],
+814 silly resolved     dist:
+814 silly resolved      { shasum: 'cd90294d58a1ca4e8a5d0fb9c8225998881acf00',
+814 silly resolved        tarball: 'http://registry.npmjs.org/pretty-bytes/-/pretty-bytes-0.1.2.tgz' },
+814 silly resolved     directories: {},
+814 silly resolved     _resolved: 'https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-0.1.2.tgz',
+814 silly resolved     readme: 'ERROR: No README data found!' },
+814 silly resolved   { name: 'html-minifier',
+814 silly resolved     description: 'HTML minifier with lint-like capabilities.',
+814 silly resolved     version: '0.6.8',
+814 silly resolved     keywords: [ 'html', 'minifier', 'lint' ],
+814 silly resolved     homepage: 'http://kangax.github.io/html-minifier/',
+814 silly resolved     author: { name: 'Juriy "kangax" Zaytsev' },
+814 silly resolved     maintainers: [ [Object] ],
+814 silly resolved     contributors: [ [Object], [Object], [Object] ],
+814 silly resolved     license:
+814 silly resolved      { type: 'MIT',
+814 silly resolved        url: 'https://github.com/kangax/html-minifier/blob/gh-pages/LICENSE' },
+814 silly resolved     bin: { 'html-minifier': './cli.js' },
+814 silly resolved     repository: { type: 'git', url: 'https://github.com/kangax/html-minifier' },
+814 silly resolved     bugs: { url: 'https://github.com/kangax/html-minifier/issues' },
+814 silly resolved     engines: { node: '>=0.10.0' },
+814 silly resolved     directories: { test: 'tests' },
+814 silly resolved     scripts: { test: 'grunt test' },
+814 silly resolved     dependencies:
+814 silly resolved      { 'change-case': '2.1.x',
+814 silly resolved        'clean-css': '2.2.x',
+814 silly resolved        cli: '0.6.x',
+814 silly resolved        'uglify-js': '2.4.x',
+814 silly resolved        relateurl: '0.2.x' },
+814 silly resolved     devDependencies:
+814 silly resolved      { 'cli-table': '0.3.x',
+814 silly resolved        grunt: '0.4.x',
+814 silly resolved        'grunt-contrib-concat': '0.5.x',
+814 silly resolved        'grunt-contrib-jshint': '0.10.x',
+814 silly resolved        'grunt-contrib-qunit': '0.5.x',
+814 silly resolved        'grunt-contrib-uglify': '0.5.x',
+814 silly resolved        'grunt-exec': '0.4.x',
+814 silly resolved        'grunt-jscs': '0.6.x',
+814 silly resolved        'load-grunt-tasks': '0.6.x',
+814 silly resolved        qunit: '0.7.x',
+814 silly resolved        'time-grunt': '1.0.x' },
+814 silly resolved     files:
+814 silly resolved      [ 'dist',
+814 silly resolved        'cli.js',
+814 silly resolved        'sample-cli-config-file.conf',
+814 silly resolved        'CHANGELOG.md',
+814 silly resolved        'LICENSE' ],
+814 silly resolved     main: './dist/htmlminifier.js',
+814 silly resolved     gitHead: '6c097d070097b675e38f66bb58955d9b4d5080e4',
+814 silly resolved     _id: 'html-minifier@0.6.8',
+814 silly resolved     _shasum: '596e17e5faf1040c3c68b5d136d32d79efc9ed07',
+814 silly resolved     _from: 'html-minifier@~0.6.0',
+814 silly resolved     _npmVersion: '1.4.14',
+814 silly resolved     _npmUser: { name: 'kangax', email: 'kangax@gmail.com' },
+814 silly resolved     dist:
+814 silly resolved      { shasum: '596e17e5faf1040c3c68b5d136d32d79efc9ed07',
+814 silly resolved        tarball: 'http://registry.npmjs.org/html-minifier/-/html-minifier-0.6.8.tgz' },
+814 silly resolved     _resolved: 'https://registry.npmjs.org/html-minifier/-/html-minifier-0.6.8.tgz',
+814 silly resolved     readme: 'ERROR: No README data found!' },
+814 silly resolved   { name: 'chalk',
+814 silly resolved     version: '0.4.0',
+814 silly resolved     description: 'Terminal string styling done right. Created because the `colors` module does some really horrible things.',
+814 silly resolved     license: 'MIT',
+814 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/chalk' },
+814 silly resolved     author:
+814 silly resolved      { name: 'Sindre Sorhus',
+814 silly resolved        email: 'sindresorhus@gmail.com',
+814 silly resolved        url: 'http://sindresorhus.com' },
+814 silly resolved     engines: { node: '>=0.8.0' },
+814 silly resolved     scripts: { test: 'mocha' },
+814 silly resolved     files: [ 'index.js' ],
+814 silly resolved     keywords:
+814 silly resolved      [ 'color',
+814 silly resolved        'colour',
+814 silly resolved        'colors',
+814 silly resolved        'terminal',
+814 silly resolved        'console',
+814 silly resolved        'cli',
+814 silly resolved        'string',
+814 silly resolved        'ansi',
+814 silly resolved        'styles',
+814 silly resolved        'tty',
+814 silly resolved        'formatting',
+814 silly resolved        'rgb',
+814 silly resolved        '256',
+814 silly resolved        'shell',
+814 silly resolved        'xterm',
+814 silly resolved        'log',
+814 silly resolved        'logging',
+814 silly resolved        'command-line',
+814 silly resolved        'text' ],
+814 silly resolved     dependencies:
+814 silly resolved      { 'has-color': '~0.1.0',
+814 silly resolved        'ansi-styles': '~1.0.0',
+814 silly resolved        'strip-ansi': '~0.1.0' },
+814 silly resolved     devDependencies: { mocha: '~1.x' },
+814 silly resolved     bugs: { url: 'https://github.com/sindresorhus/chalk/issues' },
+814 silly resolved     homepage: 'https://github.com/sindresorhus/chalk',
+814 silly resolved     _id: 'chalk@0.4.0',
+814 silly resolved     dist:
+814 silly resolved      { shasum: '5199a3ddcd0c1efe23bc08c1b027b06176e0c64f',
+814 silly resolved        tarball: 'http://registry.npmjs.org/chalk/-/chalk-0.4.0.tgz' },
+814 silly resolved     _from: 'chalk@~0.4.0',
+814 silly resolved     _npmVersion: '1.3.17',
+814 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+814 silly resolved     maintainers: [ [Object] ],
+814 silly resolved     directories: {},
+814 silly resolved     _shasum: '5199a3ddcd0c1efe23bc08c1b027b06176e0c64f',
+814 silly resolved     _resolved: 'https://registry.npmjs.org/chalk/-/chalk-0.4.0.tgz',
+814 silly resolved     readme: 'ERROR: No README data found!' } ]
+815 info install pretty-bytes@0.1.2 into /Users/InRhythm041/karkahna/node_modules/grunt-contrib-htmlmin
+816 info install html-minifier@0.6.8 into /Users/InRhythm041/karkahna/node_modules/grunt-contrib-htmlmin
+817 info install chalk@0.4.0 into /Users/InRhythm041/karkahna/node_modules/grunt-contrib-htmlmin
+818 info installOne pretty-bytes@0.1.2
+819 info installOne html-minifier@0.6.8
+820 info installOne chalk@0.4.0
+821 verbose node_modules/grunt-svgmin/node_modules/pretty-bytes unbuild
+822 verbose node_modules/grunt-svgmin/node_modules/svgo unbuild
+823 verbose node_modules/grunt-svgmin/node_modules/each-async unbuild
+824 verbose node_modules/grunt-svgmin/node_modules/chalk unbuild
+825 verbose node_modules/grunt-contrib-htmlmin/node_modules/pretty-bytes unbuild
+826 verbose node_modules/grunt-contrib-htmlmin/node_modules/html-minifier unbuild
+827 verbose node_modules/grunt-contrib-htmlmin/node_modules/chalk unbuild
+828 silly lockFile c527aacd-wiredep-1-8-5 wiredep@1.8.5
+829 silly lockFile c527aacd-wiredep-1-8-5 wiredep@1.8.5
+830 silly lockFile d343cdf5-wiredep-1-5-0 wiredep@^1.5.0
+831 silly lockFile d343cdf5-wiredep-1-5-0 wiredep@^1.5.0
+832 info preinstall grunt-contrib-cssmin@0.10.0
+833 verbose tar unpack /Users/InRhythm041/.npm/pretty-bytes/0.1.2/package.tgz
+834 silly lockFile cae37b04-svgmin-node-modules-pretty-bytes tar:///Users/InRhythm041/karkahna/node_modules/grunt-svgmin/node_modules/pretty-bytes
+835 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-svgmin/node_modules/pretty-bytes /Users/InRhythm041/.npm/cae37b04-svgmin-node-modules-pretty-bytes.lock
+836 silly lockFile e348121f-m-pretty-bytes-0-1-2-package-tgz tar:///Users/InRhythm041/.npm/pretty-bytes/0.1.2/package.tgz
+837 verbose lock tar:///Users/InRhythm041/.npm/pretty-bytes/0.1.2/package.tgz /Users/InRhythm041/.npm/e348121f-m-pretty-bytes-0-1-2-package-tgz.lock
+838 verbose tar unpack /Users/InRhythm041/.npm/svgo/0.4.5/package.tgz
+839 silly lockFile b4dece94-s-grunt-svgmin-node-modules-svgo tar:///Users/InRhythm041/karkahna/node_modules/grunt-svgmin/node_modules/svgo
+840 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-svgmin/node_modules/svgo /Users/InRhythm041/.npm/b4dece94-s-grunt-svgmin-node-modules-svgo.lock
+841 silly lockFile 9f604f3d-hm041-npm-svgo-0-4-5-package-tgz tar:///Users/InRhythm041/.npm/svgo/0.4.5/package.tgz
+842 verbose lock tar:///Users/InRhythm041/.npm/svgo/0.4.5/package.tgz /Users/InRhythm041/.npm/9f604f3d-hm041-npm-svgo-0-4-5-package-tgz.lock
+843 verbose tar unpack /Users/InRhythm041/.npm/each-async/0.1.3/package.tgz
+844 silly lockFile 8290cb5c-t-svgmin-node-modules-each-async tar:///Users/InRhythm041/karkahna/node_modules/grunt-svgmin/node_modules/each-async
+845 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-svgmin/node_modules/each-async /Users/InRhythm041/.npm/8290cb5c-t-svgmin-node-modules-each-async.lock
+846 silly lockFile c75b36cb-npm-each-async-0-1-3-package-tgz tar:///Users/InRhythm041/.npm/each-async/0.1.3/package.tgz
+847 verbose lock tar:///Users/InRhythm041/.npm/each-async/0.1.3/package.tgz /Users/InRhythm041/.npm/c75b36cb-npm-each-async-0-1-3-package-tgz.lock
+848 verbose tar unpack /Users/InRhythm041/.npm/chalk/0.4.0/package.tgz
+849 silly lockFile 970b95b5--grunt-svgmin-node-modules-chalk tar:///Users/InRhythm041/karkahna/node_modules/grunt-svgmin/node_modules/chalk
+850 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-svgmin/node_modules/chalk /Users/InRhythm041/.npm/970b95b5--grunt-svgmin-node-modules-chalk.lock
+851 silly lockFile 896d320d-m041-npm-chalk-0-4-0-package-tgz tar:///Users/InRhythm041/.npm/chalk/0.4.0/package.tgz
+852 verbose lock tar:///Users/InRhythm041/.npm/chalk/0.4.0/package.tgz /Users/InRhythm041/.npm/896d320d-m041-npm-chalk-0-4-0-package-tgz.lock
+853 verbose tar unpack /Users/InRhythm041/.npm/pretty-bytes/0.1.2/package.tgz
+854 silly lockFile ad017533-tmlmin-node-modules-pretty-bytes tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-htmlmin/node_modules/pretty-bytes
+855 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-htmlmin/node_modules/pretty-bytes /Users/InRhythm041/.npm/ad017533-tmlmin-node-modules-pretty-bytes.lock
+856 silly lockFile e348121f-m-pretty-bytes-0-1-2-package-tgz tar:///Users/InRhythm041/.npm/pretty-bytes/0.1.2/package.tgz
+857 verbose lock tar:///Users/InRhythm041/.npm/pretty-bytes/0.1.2/package.tgz /Users/InRhythm041/.npm/e348121f-m-pretty-bytes-0-1-2-package-tgz.lock
+858 verbose tar unpack /Users/InRhythm041/.npm/html-minifier/0.6.8/package.tgz
+859 silly lockFile 36c21422-mlmin-node-modules-html-minifier tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-htmlmin/node_modules/html-minifier
+860 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-htmlmin/node_modules/html-minifier /Users/InRhythm041/.npm/36c21422-mlmin-node-modules-html-minifier.lock
+861 silly lockFile 4640194a--html-minifier-0-6-8-package-tgz tar:///Users/InRhythm041/.npm/html-minifier/0.6.8/package.tgz
+862 verbose lock tar:///Users/InRhythm041/.npm/html-minifier/0.6.8/package.tgz /Users/InRhythm041/.npm/4640194a--html-minifier-0-6-8-package-tgz.lock
+863 verbose tar unpack /Users/InRhythm041/.npm/chalk/0.4.0/package.tgz
+864 silly lockFile 5f7bfcb4-ntrib-htmlmin-node-modules-chalk tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-htmlmin/node_modules/chalk
+865 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-contrib-htmlmin/node_modules/chalk /Users/InRhythm041/.npm/5f7bfcb4-ntrib-htmlmin-node-modules-chalk.lock
+866 silly lockFile 896d320d-m041-npm-chalk-0-4-0-package-tgz tar:///Users/InRhythm041/.npm/chalk/0.4.0/package.tgz
+867 verbose lock tar:///Users/InRhythm041/.npm/chalk/0.4.0/package.tgz /Users/InRhythm041/.npm/896d320d-m041-npm-chalk-0-4-0-package-tgz.lock
+868 verbose readDependencies using package.json deps
+869 verbose readDependencies using package.json deps
+870 silly gunzTarPerm modes [ '755', '644' ]
+871 silly gunzTarPerm modes [ '755', '644' ]
+872 silly gunzTarPerm modes [ '755', '644' ]
+873 silly gunzTarPerm modes [ '755', '644' ]
+874 silly gunzTarPerm modes [ '755', '644' ]
+875 http 200 https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-1.0.1.tgz
+876 verbose cache add [ 'chalk@~0.4.0', null ]
+877 verbose cache add name=undefined spec="chalk@~0.4.0" args=["chalk@~0.4.0",null]
+878 verbose parsed url { protocol: null,
+878 verbose parsed url   slashes: null,
+878 verbose parsed url   auth: null,
+878 verbose parsed url   host: null,
+878 verbose parsed url   port: null,
+878 verbose parsed url   hostname: null,
+878 verbose parsed url   hash: null,
+878 verbose parsed url   search: null,
+878 verbose parsed url   query: null,
+878 verbose parsed url   pathname: 'chalk@~0.4.0',
+878 verbose parsed url   path: 'chalk@~0.4.0',
+878 verbose parsed url   href: 'chalk@~0.4.0' }
+879 verbose cache add [ 'clean-css@~2.2.0', null ]
+880 verbose cache add name=undefined spec="clean-css@~2.2.0" args=["clean-css@~2.2.0",null]
+881 verbose parsed url { protocol: null,
+881 verbose parsed url   slashes: null,
+881 verbose parsed url   auth: null,
+881 verbose parsed url   host: null,
+881 verbose parsed url   port: null,
+881 verbose parsed url   hostname: null,
+881 verbose parsed url   hash: null,
+881 verbose parsed url   search: null,
+881 verbose parsed url   query: null,
+881 verbose parsed url   pathname: 'clean-css@~2.2.0',
+881 verbose parsed url   path: 'clean-css@~2.2.0',
+881 verbose parsed url   href: 'clean-css@~2.2.0' }
+882 verbose cache add name="chalk" spec="~0.4.0" args=["chalk","~0.4.0"]
+883 verbose parsed url { protocol: null,
+883 verbose parsed url   slashes: null,
+883 verbose parsed url   auth: null,
+883 verbose parsed url   host: null,
+883 verbose parsed url   port: null,
+883 verbose parsed url   hostname: null,
+883 verbose parsed url   hash: null,
+883 verbose parsed url   search: null,
+883 verbose parsed url   query: null,
+883 verbose parsed url   pathname: '~0.4.0',
+883 verbose parsed url   path: '~0.4.0',
+883 verbose parsed url   href: '~0.4.0' }
+884 verbose addNamed [ 'chalk', '~0.4.0' ]
+885 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+886 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+887 verbose lock chalk@~0.4.0 /Users/InRhythm041/.npm/bc9fb696-chalk-0-4-0.lock
+888 verbose cache add [ 'maxmin@~0.2.0', null ]
+889 verbose cache add name=undefined spec="maxmin@~0.2.0" args=["maxmin@~0.2.0",null]
+890 verbose parsed url { protocol: null,
+890 verbose parsed url   slashes: null,
+890 verbose parsed url   auth: null,
+890 verbose parsed url   host: null,
+890 verbose parsed url   port: null,
+890 verbose parsed url   hostname: null,
+890 verbose parsed url   hash: null,
+890 verbose parsed url   search: null,
+890 verbose parsed url   query: null,
+890 verbose parsed url   pathname: 'maxmin@~0.2.0',
+890 verbose parsed url   path: 'maxmin@~0.2.0',
+890 verbose parsed url   href: 'maxmin@~0.2.0' }
+891 verbose cache add name="clean-css" spec="~2.2.0" args=["clean-css","~2.2.0"]
+892 verbose parsed url { protocol: null,
+892 verbose parsed url   slashes: null,
+892 verbose parsed url   auth: null,
+892 verbose parsed url   host: null,
+892 verbose parsed url   port: null,
+892 verbose parsed url   hostname: null,
+892 verbose parsed url   hash: null,
+892 verbose parsed url   search: null,
+892 verbose parsed url   query: null,
+892 verbose parsed url   pathname: '~2.2.0',
+892 verbose parsed url   path: '~2.2.0',
+892 verbose parsed url   href: '~2.2.0' }
+893 verbose addNamed [ 'clean-css', '~2.2.0' ]
+894 verbose addNamed [ null, '>=2.2.0-0 <2.3.0-0' ]
+895 silly lockFile ff4d30ae-clean-css-2-2-0 clean-css@~2.2.0
+896 verbose lock clean-css@~2.2.0 /Users/InRhythm041/.npm/ff4d30ae-clean-css-2-2-0.lock
+897 verbose cache add name="maxmin" spec="~0.2.0" args=["maxmin","~0.2.0"]
+898 verbose parsed url { protocol: null,
+898 verbose parsed url   slashes: null,
+898 verbose parsed url   auth: null,
+898 verbose parsed url   host: null,
+898 verbose parsed url   port: null,
+898 verbose parsed url   hostname: null,
+898 verbose parsed url   hash: null,
+898 verbose parsed url   search: null,
+898 verbose parsed url   query: null,
+898 verbose parsed url   pathname: '~0.2.0',
+898 verbose parsed url   path: '~0.2.0',
+898 verbose parsed url   href: '~0.2.0' }
+899 verbose addNamed [ 'maxmin', '~0.2.0' ]
+900 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+901 silly lockFile cc4f8d9c-maxmin-0-2-0 maxmin@~0.2.0
+902 verbose lock maxmin@~0.2.0 /Users/InRhythm041/.npm/cc4f8d9c-maxmin-0-2-0.lock
+903 silly addNameRange { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+904 silly addNameRange { name: 'clean-css',
+904 silly addNameRange   range: '>=2.2.0-0 <2.3.0-0',
+904 silly addNameRange   hasData: false }
+905 silly lockFile 16934aa9-arkahna-node-modules-grunt-mocha tar:///Users/InRhythm041/karkahna/node_modules/grunt-mocha
+906 silly lockFile 16934aa9-arkahna-node-modules-grunt-mocha tar:///Users/InRhythm041/karkahna/node_modules/grunt-mocha
+907 silly gunzTarPerm extractEntry package.json
+908 silly resolved [ { name: 'wiredep',
+908 silly resolved     version: '1.8.5',
+908 silly resolved     main: './wiredep.js',
+908 silly resolved     bin: { wiredep: './wiredep-cli.js' },
+908 silly resolved     description: 'Wire Bower dependencies to your source code.',
+908 silly resolved     repository: { type: 'git', url: 'https://github.com/taptapship/wiredep' },
+908 silly resolved     author: { name: 'Stephen Sawchuk', email: 'sawchuk@gmail.com' },
+908 silly resolved     keywords:
+908 silly resolved      [ 'bower',
+908 silly resolved        'package',
+908 silly resolved        'management',
+908 silly resolved        'inject',
+908 silly resolved        'script',
+908 silly resolved        'dependencies' ],
+908 silly resolved     files: [ 'lib/', 'LICENSE', 'wiredep.js', 'wiredep-cli.js' ],
+908 silly resolved     licenses: [ [Object] ],
+908 silly resolved     scripts: { test: 'jshint lib/*.js test/*.js && NODE_ENV=test ./node_modules/.bin/mocha -R spec' },
+908 silly resolved     dependencies:
+908 silly resolved      { 'bower-config': '^0.5.0',
+908 silly resolved        chalk: '^0.5.1',
+908 silly resolved        glob: '^4.0.5',
+908 silly resolved        lodash: '^2.4.1',
+908 silly resolved        minimist: '^1.1.0',
+908 silly resolved        propprop: '^0.3.0',
+908 silly resolved        through2: '^0.6.1' },
+908 silly resolved     devDependencies: { 'fs-extra': '^0.11.0', jshint: '*', mocha: '*' },
+908 silly resolved     gitHead: 'aa1508667c370663e8341c701d570179d644d2fd',
+908 silly resolved     bugs: { url: 'https://github.com/taptapship/wiredep/issues' },
+908 silly resolved     homepage: 'https://github.com/taptapship/wiredep',
+908 silly resolved     _id: 'wiredep@1.8.5',
+908 silly resolved     _shasum: 'a4e9374b766920a36d6946665c937e486e5e3981',
+908 silly resolved     _from: 'wiredep@^1.5.0',
+908 silly resolved     _npmVersion: '1.4.21',
+908 silly resolved     _npmUser: { name: 'stephenplusplus', email: 'sawchuk@gmail.com' },
+908 silly resolved     maintainers: [ [Object] ],
+908 silly resolved     dist:
+908 silly resolved      { shasum: 'a4e9374b766920a36d6946665c937e486e5e3981',
+908 silly resolved        tarball: 'http://registry.npmjs.org/wiredep/-/wiredep-1.8.5.tgz' },
+908 silly resolved     directories: {},
+908 silly resolved     _resolved: 'https://registry.npmjs.org/wiredep/-/wiredep-1.8.5.tgz',
+908 silly resolved     readme: 'ERROR: No README data found!' } ]
+909 info install wiredep@1.8.5 into /Users/InRhythm041/karkahna/node_modules/grunt-wiredep
+910 info installOne wiredep@1.8.5
+911 silly addNameRange { name: 'maxmin', range: '>=0.2.0-0 <0.3.0-0', hasData: false }
+912 silly gunzTarPerm extractEntry package.json
+913 silly lockFile 59b9ba39-m-grunt-mocha-0-4-11-package-tgz tar:///Users/InRhythm041/.npm/grunt-mocha/0.4.11/package.tgz
+914 silly lockFile 59b9ba39-m-grunt-mocha-0-4-11-package-tgz tar:///Users/InRhythm041/.npm/grunt-mocha/0.4.11/package.tgz
+915 silly gunzTarPerm extractEntry package.json
+916 verbose node_modules/grunt-wiredep/node_modules/wiredep unbuild
+917 silly gunzTarPerm extractEntry package.json
+918 silly gunzTarPerm extractEntry package.json
+919 silly gunzTarPerm extractEntry cli.js
+920 silly gunzTarPerm extractEntry pretty-bytes.js
+921 verbose tar unpack /Users/InRhythm041/.npm/wiredep/1.8.5/package.tgz
+922 silly lockFile c62772d6-unt-wiredep-node-modules-wiredep tar:///Users/InRhythm041/karkahna/node_modules/grunt-wiredep/node_modules/wiredep
+923 verbose lock tar:///Users/InRhythm041/karkahna/node_modules/grunt-wiredep/node_modules/wiredep /Users/InRhythm041/.npm/c62772d6-unt-wiredep-node-modules-wiredep.lock
+924 silly lockFile da9a54de-41-npm-wiredep-1-8-5-package-tgz tar:///Users/InRhythm041/.npm/wiredep/1.8.5/package.tgz
+925 verbose lock tar:///Users/InRhythm041/.npm/wiredep/1.8.5/package.tgz /Users/InRhythm041/.npm/da9a54de-41-npm-wiredep-1-8-5-package-tgz.lock
+926 silly lockFile 47a3399a-tty-bytes-pretty-bytes-1-0-1-tgz https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-1.0.1.tgz
+927 silly lockFile 47a3399a-tty-bytes-pretty-bytes-1-0-1-tgz https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-1.0.1.tgz
+928 verbose registry.get https://registry.npmjs.org/chalk not expired, no request
+929 silly addNameRange number 2 { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+930 silly addNameRange versions [ 'chalk',
+930 silly addNameRange   [ '0.1.0',
+930 silly addNameRange     '0.1.1',
+930 silly addNameRange     '0.2.0',
+930 silly addNameRange     '0.2.1',
+930 silly addNameRange     '0.3.0',
+930 silly addNameRange     '0.4.0',
+930 silly addNameRange     '0.5.0',
+930 silly addNameRange     '0.5.1' ] ]
+931 verbose addNamed [ 'chalk', '0.4.0' ]
+932 verbose addNamed [ '0.4.0', '0.4.0' ]
+933 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+934 verbose lock chalk@0.4.0 /Users/InRhythm041/.npm/1efe4790-chalk-0-4-0.lock
+935 verbose request where is /clean-css
+936 verbose request registry https://registry.npmjs.org/
+937 verbose url raw /clean-css
+938 verbose url resolving [ 'https://registry.npmjs.org/', './clean-css' ]
+939 verbose url resolved https://registry.npmjs.org/clean-css
+940 verbose request where is https://registry.npmjs.org/clean-css
+941 info trying registry request attempt 1 at 13:32:17
+942 verbose etag "87Z8BZ36TFZIKBAODKOE4D8G0"
+943 http GET https://registry.npmjs.org/clean-css
+944 silly gunzTarPerm extractEntry README.md
+945 silly gunzTarPerm extractEntry LICENSE
+946 info preinstall grunt-mocha@0.4.11
+947 silly gunzTarPerm extractEntry .npmignore
+948 silly gunzTarPerm extractEntry README.md
+949 silly gunzTarPerm extractEntry each-async.js
+950 silly gunzTarPerm extractEntry readme.md
+951 silly gunzTarPerm extractEntry index.js
+952 silly gunzTarPerm extractEntry readme.md
+953 silly lockFile c48f554e-pretty-bytes-1-0-1 pretty-bytes@1.0.1
+954 silly lockFile c48f554e-pretty-bytes-1-0-1 pretty-bytes@1.0.1
+955 verbose request where is /maxmin
+956 verbose request registry https://registry.npmjs.org/
+957 verbose url raw /maxmin
+958 verbose url resolving [ 'https://registry.npmjs.org/', './maxmin' ]
+959 verbose url resolved https://registry.npmjs.org/maxmin
+960 verbose request where is https://registry.npmjs.org/maxmin
+961 info trying registry request attempt 1 at 13:32:17
+962 verbose etag "9Y144VZ4E47TXHOKZE2VOD5Z7"
+963 http GET https://registry.npmjs.org/maxmin
+964 silly lockFile accf8f6e-pretty-bytes-1-0-1 pretty-bytes@^1.0.1
+965 silly lockFile accf8f6e-pretty-bytes-1-0-1 pretty-bytes@^1.0.1
+966 silly gunzTarPerm modes [ '755', '644' ]
+967 verbose about to build /Users/InRhythm041/karkahna/node_modules/grunt-contrib-imagemin
+968 verbose node_modules/grunt-contrib-imagemin unbuild
+969 info preuninstall grunt-contrib-imagemin@0.8.1
+970 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+971 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+972 verbose readDependencies using package.json deps
+973 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+974 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+975 verbose readDependencies using package.json deps
+976 info uninstall grunt-contrib-imagemin@0.8.1
+977 verbose cache add [ 'grunt-lib-phantomjs@~0.4', null ]
+978 verbose cache add name=undefined spec="grunt-lib-phantomjs@~0.4" args=["grunt-lib-phantomjs@~0.4",null]
+979 verbose parsed url { protocol: null,
+979 verbose parsed url   slashes: null,
+979 verbose parsed url   auth: null,
+979 verbose parsed url   host: null,
+979 verbose parsed url   port: null,
+979 verbose parsed url   hostname: null,
+979 verbose parsed url   hash: null,
+979 verbose parsed url   search: null,
+979 verbose parsed url   query: null,
+979 verbose parsed url   pathname: 'grunt-lib-phantomjs@~0.4',
+979 verbose parsed url   path: 'grunt-lib-phantomjs@~0.4',
+979 verbose parsed url   href: 'grunt-lib-phantomjs@~0.4' }
+980 verbose cache add [ 'mocha@~1.18', null ]
+981 verbose cache add name=undefined spec="mocha@~1.18" args=["mocha@~1.18",null]
+982 verbose parsed url { protocol: null,
+982 verbose parsed url   slashes: null,
+982 verbose parsed url   auth: null,
+982 verbose parsed url   host: null,
+982 verbose parsed url   port: null,
+982 verbose parsed url   hostname: null,
+982 verbose parsed url   hash: null,
+982 verbose parsed url   search: null,
+982 verbose parsed url   query: null,
+982 verbose parsed url   pathname: 'mocha@~1.18',
+982 verbose parsed url   path: 'mocha@~1.18',
+982 verbose parsed url   href: 'mocha@~1.18' }
+983 verbose true,/Users/InRhythm041/karkahna/node_modules,/Users/InRhythm041/karkahna/node_modules unbuild grunt-contrib-imagemin@0.8.1
+984 info postuninstall grunt-contrib-imagemin@0.8.1
+985 verbose cache add name="grunt-lib-phantomjs" spec="~0.4" args=["grunt-lib-phantomjs","~0.4"]
+986 verbose parsed url { protocol: null,
+986 verbose parsed url   slashes: null,
+986 verbose parsed url   auth: null,
+986 verbose parsed url   host: null,
+986 verbose parsed url   port: null,
+986 verbose parsed url   hostname: null,
+986 verbose parsed url   hash: null,
+986 verbose parsed url   search: null,
+986 verbose parsed url   query: null,
+986 verbose parsed url   pathname: '~0.4',
+986 verbose parsed url   path: '~0.4',
+986 verbose parsed url   href: '~0.4' }
+987 verbose addNamed [ 'grunt-lib-phantomjs', '~0.4' ]
+988 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+989 silly lockFile d47c25da-grunt-lib-phantomjs-0-4 grunt-lib-phantomjs@~0.4
+990 verbose lock grunt-lib-phantomjs@~0.4 /Users/InRhythm041/.npm/d47c25da-grunt-lib-phantomjs-0-4.lock
+991 verbose cache add [ 'lodash@~2.3.0', null ]
+992 verbose cache add name=undefined spec="lodash@~2.3.0" args=["lodash@~2.3.0",null]
+993 verbose parsed url { protocol: null,
+993 verbose parsed url   slashes: null,
+993 verbose parsed url   auth: null,
+993 verbose parsed url   host: null,
+993 verbose parsed url   port: null,
+993 verbose parsed url   hostname: null,
+993 verbose parsed url   hash: null,
+993 verbose parsed url   search: null,
+993 verbose parsed url   query: null,
+993 verbose parsed url   pathname: 'lodash@~2.3.0',
+993 verbose parsed url   path: 'lodash@~2.3.0',
+993 verbose parsed url   href: 'lodash@~2.3.0' }
+994 verbose cache add name="mocha" spec="~1.18" args=["mocha","~1.18"]
+995 verbose parsed url { protocol: null,
+995 verbose parsed url   slashes: null,
+995 verbose parsed url   auth: null,
+995 verbose parsed url   host: null,
+995 verbose parsed url   port: null,
+995 verbose parsed url   hostname: null,
+995 verbose parsed url   hash: null,
+995 verbose parsed url   search: null,
+995 verbose parsed url   query: null,
+995 verbose parsed url   pathname: '~1.18',
+995 verbose parsed url   path: '~1.18',
+995 verbose parsed url   href: '~1.18' }
+996 verbose addNamed [ 'mocha', '~1.18' ]
+997 verbose addNamed [ null, '>=1.18.0-0 <1.19.0-0' ]
+998 silly lockFile 5ff00626-mocha-1-18 mocha@~1.18
+999 verbose lock mocha@~1.18 /Users/InRhythm041/.npm/5ff00626-mocha-1-18.lock
+1000 silly gunzTarPerm extractEntry package.json
+1001 verbose cache add name="lodash" spec="~2.3.0" args=["lodash","~2.3.0"]
+1002 verbose parsed url { protocol: null,
+1002 verbose parsed url   slashes: null,
+1002 verbose parsed url   auth: null,
+1002 verbose parsed url   host: null,
+1002 verbose parsed url   port: null,
+1002 verbose parsed url   hostname: null,
+1002 verbose parsed url   hash: null,
+1002 verbose parsed url   search: null,
+1002 verbose parsed url   query: null,
+1002 verbose parsed url   pathname: '~2.3.0',
+1002 verbose parsed url   path: '~2.3.0',
+1002 verbose parsed url   href: '~2.3.0' }
+1003 verbose addNamed [ 'lodash', '~2.3.0' ]
+1004 verbose addNamed [ null, '>=2.3.0-0 <2.4.0-0' ]
+1005 silly lockFile 649d3979-lodash-2-3-0 lodash@~2.3.0
+1006 verbose lock lodash@~2.3.0 /Users/InRhythm041/.npm/649d3979-lodash-2-3-0.lock
+1007 silly gunzTarPerm extractEntry readme.md
+1008 silly addNameRange { name: 'grunt-lib-phantomjs',
+1008 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+1008 silly addNameRange   hasData: false }
+1009 silly addNameRange { name: 'mocha', range: '>=1.18.0-0 <1.19.0-0', hasData: false }
+1010 silly addNameRange { name: 'lodash', range: '>=2.3.0-0 <2.4.0-0', hasData: false }
+1011 silly gunzTarPerm extractEntry LICENSE
+1012 http 304 https://registry.npmjs.org/clean-css
+1013 silly registry.get cb [ 304,
+1013 silly registry.get   { date: 'Sat, 06 Sep 2014 17:32:12 GMT',
+1013 silly registry.get     server: 'Apache',
+1013 silly registry.get     via: '1.1 varnish',
+1013 silly registry.get     'last-modified': 'Sat, 06 Sep 2014 17:32:12 GMT',
+1013 silly registry.get     'cache-control': 'max-age=60',
+1013 silly registry.get     etag: '"87Z8BZ36TFZIKBAODKOE4D8G0"',
+1013 silly registry.get     'x-served-by': 'cache-jfk1031-JFK',
+1013 silly registry.get     'x-cache': 'HIT',
+1013 silly registry.get     'x-cache-hits': '1',
+1013 silly registry.get     'x-timer': 'S1410024732.999555,VS0,VE0',
+1013 silly registry.get     vary: 'Accept',
+1013 silly registry.get     'content-length': '0',
+1013 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1013 silly registry.get     connection: 'Keep-Alive' } ]
+1014 verbose etag https://registry.npmjs.org/clean-css from cache
+1015 silly gunzTarPerm extractEntry cli.js
+1016 silly gunzTarPerm extractEntry CHANGELOG.md
+1017 silly gunzTarPerm extractEntry dist/htmlminifier.js
+1018 silly gunzTarPerm extractEntry dist/htmlminifier.min.js
+1019 silly gunzTarPerm extractEntry sample-cli-config-file.conf
+1020 silly gunzTarPerm extractEntry LICENSE
+1021 silly gunzTarPerm extractEntry wiredep-cli.js
+1022 verbose request where is /grunt-lib-phantomjs
+1023 verbose request registry https://registry.npmjs.org/
+1024 verbose url raw /grunt-lib-phantomjs
+1025 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-lib-phantomjs' ]
+1026 verbose url resolved https://registry.npmjs.org/grunt-lib-phantomjs
+1027 verbose request where is https://registry.npmjs.org/grunt-lib-phantomjs
+1028 info trying registry request attempt 1 at 13:32:17
+1029 verbose etag "CUWRQK4ICV6Q7ZRJ0R2Q1HUK"
+1030 http GET https://registry.npmjs.org/grunt-lib-phantomjs
+1031 verbose request where is /mocha
+1032 verbose request registry https://registry.npmjs.org/
+1033 verbose url raw /mocha
+1034 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+1035 verbose url resolved https://registry.npmjs.org/mocha
+1036 verbose request where is https://registry.npmjs.org/mocha
+1037 info trying registry request attempt 1 at 13:32:17
+1038 verbose etag "5VJVLV4I3L38BNZO2RN684NJJ"
+1039 http GET https://registry.npmjs.org/mocha
+1040 verbose request where is /lodash
+1041 verbose request registry https://registry.npmjs.org/
+1042 verbose url raw /lodash
+1043 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
+1044 verbose url resolved https://registry.npmjs.org/lodash
+1045 verbose request where is https://registry.npmjs.org/lodash
+1046 info trying registry request attempt 1 at 13:32:17
+1047 verbose etag "6CAMLEOB2HIPX7833KJVZNBLQ"
+1048 http GET https://registry.npmjs.org/lodash
+1049 error Error: EACCES, mkdir '/Users/InRhythm041/.npm/pretty-bytes/1.0.1'
+1049 error  { [Error: EACCES, mkdir '/Users/InRhythm041/.npm/pretty-bytes/1.0.1']
+1049 error   errno: 3,
+1049 error   code: 'EACCES',
+1049 error   path: '/Users/InRhythm041/.npm/pretty-bytes/1.0.1',
+1049 error   parent: 'grunt-contrib-imagemin' }
+1050 error Please try running this command again as root/Administrator.
+1051 error System Darwin 13.3.0
+1052 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+1053 error cwd /Users/InRhythm041/karkahna/test
+1054 error node -v v0.10.30
+1055 error npm -v 1.4.21
+1056 error path /Users/InRhythm041/.npm/pretty-bytes/1.0.1
+1057 error code EACCES
+1058 error errno 3
+1059 error stack Error: EACCES, mkdir '/Users/InRhythm041/.npm/pretty-bytes/1.0.1'
+1060 verbose exit [ 3, true ]
