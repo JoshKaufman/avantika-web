@@ -12,6 +12,10 @@
           templateUrl: '/partials/home.html',
           controller: 'HomeCtrl'
         })
+        .when('/dresses', {
+          templateUrl: '/partials/product-list.html',
+          controller: 'ProductCtrl'
+        })
         .when('/designers', {
             templateUrl: '/partials/designer-list.html',
             controller:   'DesignerListCtrl'
@@ -24,6 +28,7 @@
 
   /*controllers*/
   avantika.controller('HomeCtrl', function($scope){
+      //$document.scrollTop(0, 0);
       $scope.featuredImages = [
         {
           'url':'/images/featured-item-1.jpg'
@@ -37,23 +42,11 @@
       ];
 
   })
+  .controller('ProductCtrl', function($scope, $document) {
+      $document.scrollTop(0, 0);
+  })
   .controller('DesignerListCtrl', function($scope, $http){
-    $http({
-      method: 'GET',
-      url: REST_ENDPOINT+'products'
-    })
-    .success(function(data, status, header, config){
-      console.log(data);
-      console.log(status);
-      console.log(header);
-      console.log(config);
-    })
-    .error(function(data, status, header, config){
-      console.log(data);
-      console.log(status);
-      console.log(header);
-      console.log(config);
-    });
+      $document.scrollTop(0, 0);
   });
 
 })();
