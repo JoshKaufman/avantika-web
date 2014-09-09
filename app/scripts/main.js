@@ -41,12 +41,12 @@
         }
       ];
 
+  }] )
+  .controller('ProductCtrl', ['$scope', '$document', function($scope, $document) {
+      $document.scrollTop(0, 0);
   }])
-  .controller('ProductCtrl', function($scope, $document) {
+  .controller('DesignerListCtrl', ['$scope', '$document', function($scope, $http){
       $document.scrollTop(0, 0);
-  })
-  .controller('DesignerListCtrl', function($scope, $http){
-      $document.scrollTop(0, 0);
-  });
+  }]);
 
 })();
