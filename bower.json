@@ -4,6 +4,10 @@
   "dependencies": {
     "jquery": "~1.11.1",
     "modernizr": "~2.8.2",
-    "angular": "~1.2.23"
+    "angular": "~1.2.23",
+    "angular-carousel": "~0.2.5",
+    "angular-route": "~1.2.23",
+    "angular-scroll": "~0.6.1",
+    "angular-touch": "~1.2.23"
   }
 }
