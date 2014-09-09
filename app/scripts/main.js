@@ -27,7 +27,7 @@
   ]);
 
   /*controllers*/
-  avantika.controller('HomeCtrl', function($scope){
+  avantika.controller('HomeCtrl', ['$scope', function($scope){
       //$document.scrollTop(0, 0);
       $scope.featuredImages = [
         {
@@ -41,7 +41,7 @@
         }
       ];
 
-  })
+  }])
   .controller('ProductCtrl', function($scope, $document) {
       $document.scrollTop(0, 0);
   })
